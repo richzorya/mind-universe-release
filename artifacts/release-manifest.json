@@ -2,14 +2,14 @@
   "formatVersion": 1,
   "kind": "mu-personal-release",
   "status": "beta",
-  "frontendBuildSerial": 212,
+  "frontendBuildSerial": 213,
   "backendVersion": "0.1.0",
   "backendProtocolVersion": 1,
   "artifacts": [
     {
       "path": "mind-universe-cloudflare-backend.zip",
-      "bytes": 292564,
-      "sha256": "7e2fb5b449c3ebc194d131c8a5862e70341dd23eb2387690048c3792f62089d6"
+      "bytes": 300624,
+      "sha256": "5e82df9781e40f1abf68c37aa59b54237042b56013283104c264e96263baf5da"
     }
   ],
   "repositoryBackend": [
@@ -24,6 +24,16 @@
       "sha256": "1820d01cd5870ff36f70fb3cb130e036aa63c58dbc2b62f883aa3f1fdae9c61c"
     },
     {
+      "path": "deploy.mjs",
+      "bytes": 7544,
+      "sha256": "9b8bf9ccd24965e9a07a3ab4a1077ecd4b6f7b72494aa345ff376646ebd8530d"
+    },
+    {
+      "path": "deployment-manifest.json",
+      "bytes": 3622,
+      "sha256": "8fdb1e361cc73cdd5ab6e67da7786d1e8fb8f36e508e9bfacd514ce46b0da785"
+    },
+    {
       "path": "DISCLAIMER.md",
       "bytes": 2860,
       "sha256": "38913c51ab974b12f1c5cf925573ada7bc38d3ef3c31f65788a02cfe561e4850"
@@ -32,36 +42,6 @@
       "path": "LICENSE.txt",
       "bytes": 5398,
       "sha256": "94ceb41d39ebb44bf5f1f3ab8cbbfef100e88ef70afe73974ab8349ce1a768e1"
-    },
-    {
-      "path": "README.md",
-      "bytes": 5352,
-      "sha256": "9f7c4e9e1dfdda75257f0fa261ba35ee2e539f3656081fa6877ce36cffa2c815"
-    },
-    {
-      "path": "SECURITY.md",
-      "bytes": 1522,
-      "sha256": "4e8bbebbeed097450cdc0deca6b42c8d2b5c0cb90ba5d2b995854b1cfc04ae0e"
-    },
-    {
-      "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 478,
-      "sha256": "b68335b68160d2512adc3f8d5fd3bb2bf7c927806868a8cf28c0d068ccb9e599"
-    },
-    {
-      "path": "THIRD_PARTY_NOTICES.txt",
-      "bytes": 4097,
-      "sha256": "63292d2e4727d1a534e7e680792069b145f1ba9921947188a69d39621ef373d7"
-    },
-    {
-      "path": "deploy.mjs",
-      "bytes": 7544,
-      "sha256": "9b8bf9ccd24965e9a07a3ab4a1077ecd4b6f7b72494aa345ff376646ebd8530d"
-    },
-    {
-      "path": "deployment-manifest.json",
-      "bytes": 3622,
-      "sha256": "37e5243ff1954125acffc57ee708fd55b2483951160d764a003f2c47f38329b7"
     },
     {
       "path": "migrations/0001_background.sql",
@@ -114,9 +94,29 @@
       "sha256": "bef442762d7ceb4641a051c529a7bbcc0136026d70712367917e12754b354132"
     },
     {
+      "path": "README.md",
+      "bytes": 5722,
+      "sha256": "ba37659cc9c9efd74fafddf7e56115eba16a1eaf2ebd9b99b38d955a309d378f"
+    },
+    {
       "path": "runtime.js",
       "bytes": 670857,
       "sha256": "9bda2cfa9109bcbc9fc2d7e012b3d9b034ccf0fa6f0babb6e6864672ef74cb5b"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 1522,
+      "sha256": "4e8bbebbeed097450cdc0deca6b42c8d2b5c0cb90ba5d2b995854b1cfc04ae0e"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 478,
+      "sha256": "b68335b68160d2512adc3f8d5fd3bb2bf7c927806868a8cf28c0d068ccb9e599"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "bytes": 4097,
+      "sha256": "63292d2e4727d1a534e7e680792069b145f1ba9921947188a69d39621ef373d7"
     },
     {
       "path": "wrangler.jsonc",

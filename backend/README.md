@@ -1,4 +1,4 @@
-# 安装你的个人后台
+# 安装后台
 
 这是已编译的 Mind Universe 后台成品，不需要下载原工程或在手机上运行命令。
 
@@ -13,7 +13,9 @@
 3. 点“打开 Cloudflare 安装”或下方按钮，登录自己的 Cloudflare 和 GitHub，按提示授权安装仓库。记住创建的 Worker（后台项目）名称，保持默认部署命令 `npm run deploy`。
 4. 在 `INSTALL_CONFIG` Secret（秘密）字段中粘贴第 2 项的整段文字，按提示确认资源并部署。没有输入框时按[补填安装配置的步骤](https://github.com/richzorya/mind-universe-release/blob/main/docs/INSTALL.md#没有出现-install_config-输入框)操作，不要把秘密提交到仓库。
 5. 部署成功后，进入原 Worker 的“Settings（设置）→ Domains & Routes（域名和路由）”，复制 `workers.dev` 的 HTTPS 访问网址。它是**后台地址**，不是浏览器地址栏里的 Cloudflare 管理页面链接。
-6. 打开[聊天网页](https://mu-beta.pages.dev/)，“设置 → 个人后台 → 连接已有后台”，先将网址粘贴到“后台地址”。再切回原准备页，点“3. 回到网页配对”→“复制配对码”，返回表单粘贴到“配对码”，点“连接并保存”再“检查连接”。
+6. 打开[聊天网页](https://mu-beta.pages.dev/)，“设置 → 个人后台 → 连接后台”，先将网址粘贴到“后台地址”。再切回原准备页，点“3. 连接后台”→“复制配对码”，返回表单粘贴到“配对码”。可用小眼睛核对输入，再点“连接”，操作旁会显示绿色对勾和“已连接”；“检查连接”可重新检查。
+
+以后需要修改连接名称或后台地址，可在应用“已配对”旁点“编辑”；更换地址须填写对应配对码并通过验证，失败保留原连接。[修改已保存后台](https://github.com/richzorya/mind-universe-release/blob/main/docs/FAQ.md#已保存的后台怎样修改)
 
 准备页关闭后，可用“恢复已有安装备份”选择原文件，再进入第 3 步复制配对码；文件不包含后台网址，网址要从 Cloudflare 项目找回。原 API 密钥与模型设置继续使用，不需要因配对重新填写。
 

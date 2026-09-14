@@ -87,7 +87,7 @@
 
 ## 字体与其他素材
 
-本版本的字体与媒体清单收录 399 个字体文件、108 个图片及媒体文件。字体许可共 13 份，保存在 `licenses/fonts/`；直接纳入工程的第三方组件声明保存在 `licenses/vendor/`。当前下载内容见[发行页面](https://github.com/richzorya/mind-universe-release/releases)。
+本版本的字体与媒体清单收录 399 个字体文件、108 个图片及媒体文件。相关字体许可共 13 份，保存在 `licenses/fonts/`；直接纳入工程的第三方组件声明保存在 `licenses/vendor/`（如有）。
 
 ## 清单范围
 
