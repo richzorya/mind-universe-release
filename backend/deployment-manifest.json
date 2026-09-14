@@ -1,18 +1,13 @@
 {
   "formatVersion": 1,
-  "kind": "mu-personal-release",
-  "status": "beta",
-  "frontendBuildSerial": 212,
-  "backendVersion": "0.1.0",
-  "backendProtocolVersion": 1,
-  "artifacts": [
-    {
-      "path": "mind-universe-cloudflare-backend.zip",
-      "bytes": 299773,
-      "sha256": "a48f7130f2e50a9c67b55bd7605d30b244697b3296b429f3c960e23c1257d712"
-    }
-  ],
-  "repositoryBackend": [
+  "kind": "mu-personal-backend-template",
+  "version": "0.1.0",
+  "protocolVersion": 1,
+  "runtime": "runtime.js",
+  "configuration": "wrangler.jsonc",
+  "migrations": "migrations",
+  "backendMarkerSha256": "4307c81cf51c9d2e978184f0e06b1a7e8216961029b87b6388d208cbf69136ae",
+  "assets": [
     {
       "path": ".dev.vars.example",
       "bytes": 195,
@@ -27,11 +22,6 @@
       "path": "deploy.mjs",
       "bytes": 7544,
       "sha256": "9b8bf9ccd24965e9a07a3ab4a1077ecd4b6f7b72494aa345ff376646ebd8530d"
-    },
-    {
-      "path": "deployment-manifest.json",
-      "bytes": 3474,
-      "sha256": "0b5926ed7ef09341f17c683d3137eadd835fdb21dc12d26978cbbb2b3ae5054f"
     },
     {
       "path": "LICENSE.txt",
@@ -118,12 +108,5 @@
       "bytes": 790,
       "sha256": "8843a3784d16963ec4c4f9608984b97038128cbdf776b7aa3e1eeae02e41c34c"
     }
-  ],
-  "frontendDownloads": "not-published-pending-font-and-media-distribution-review",
-  "frontends": [
-    "https://mu-beta.pages.dev",
-    "https://mu-beta.netlify.app"
-  ],
-  "browserAutomaticInstallationVerified": false,
-  "verificationBoundary": "Compiled template and cloud API pairing/model checks; phone authorization and installation remain manual acceptance."
+  ]
 }

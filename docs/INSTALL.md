@@ -2,145 +2,91 @@
 
 [返回首页](../README.md) · [遇到问题](FAQ.md)
 
-> 当前尚无公开发布的安装包。以下是已有手动安装方式的说明，不是已验证的手机一键安装教程；请等待[下载页](https://github.com/richzorya/mind-universe-release/releases)发布可用版本后再操作。
+网页是你使用的界面，个人后台负责连接 AI 和处理后台任务。可以直接使用统一网页，只把后台部署到自己的 Cloudflare。手机、Windows、macOS 或 Linux 的浏览器均可按下面的流程操作，不需要终端命令；实际平台和手机验收范围见[更新记录](../CHANGELOG.md#使用限制)。
 
-安装分两部分：**网页是你打开的界面，后台负责连接 AI 和处理后台任务。** 两者都装好后，电脑就可以关机，日常在手机上使用。
+## 安装前准备
 
-本教程面向 macOS / Linux。请先阅读[本版使用限制](../CHANGELOG.md#使用限制)。Windows 原生安装不在当前支持范围内；只有手机暂时无法完成首次安装。
+- 自己的 GitHub 和 Cloudflare 账号；验证码、双重验证与授权提示由你本人完成。
+- 自己的模型 API Key；需要语音时再准备相应服务的凭据和权限。
+- 手机“文件”或其他本人独占的保存位置，用于保管安装配置。
+- 能连接所选网页、GitHub、Cloudflare 及后台的网络。
 
-## 第一步：下载安装包
+首次使用 Cloudflare 时，按官方页面完成账号验证、Workers 开通和 workers.dev 子域名设置。创建资源会占用你自己的云平台额度；出现付费升级或付款提示时，先确认费用，不要为了继续而盲目接受。
 
-打开 [Releases 下载页](https://github.com/richzorya/mind-universe-release/releases)，在同一个版本的 **Assets（附件）** 中下载：
+## 第一步：在本机生成并保存配置
 
-1. 一个网页包：Cloudflare 选 `mind-universe-cloudflare-pages.zip`，Netlify 选 `mind-universe-netlify-static.zip`。
-2. 一个后台包：`mind-universe-cloudflare-backend.zip`。
+打开[安装准备页](https://mu-beta.pages.dev/install.html)，备用地址是 [Netlify 准备页](https://mu-beta.netlify.app/install.html)。
 
-把两个 ZIP 分别解压，不要混在同一文件夹。网页文件夹第一层应有 `index.html`，后台文件夹第一层应有 `install.mjs`。
+1. 选择准备使用的网页来源。自行托管时，填写真实 HTTPS 网页地址，只保留协议和域名，不带末尾斜杠、路径、参数或通配符。
+2. 首次安装选择生成配置。随机配对码、后台身份、加密和通知密钥均由 Mind Universe 在你的设备上生成，不需要提交给作者后台。
+3. 保存页面提供的 `MU-installation` JSON 文件到手机“文件”等私有位置，确认文件确实保存成功。
+4. 复制页面中的完整 `INSTALL_CONFIG`。这是一个以 `MUINSTALL1.` 开头的长字符串，不是整个 JSON 文件，也不是配对码。
 
-如果你已有本版本可用且可信的网页地址，只需要下载后台包，直接从第三步开始。
+**先保存，再离开页面。** 不要只依赖剪贴板或临时页面：后面复制后台地址会覆盖剪贴板；刷新、清网站数据或切换浏览器可能使临时内容丢失。已有安装要恢复原文件，不要重新生成。
 
-## 第二步：把网页放上线
+## 第二步：部署到自己的 Cloudflare
 
-下面两种方式**只选一种**。不需要连接 GitHub 仓库，也不需要填写构建命令。
+点击准备页的官方部署按钮，或使用[部署个人后台](https://deploy.workers.cloudflare.com/?url=https%3A%2F%2Fgithub.com%2Frichzorya%2Fmind-universe-release%2Ftree%2Fmain%2Fbackend)。
 
-### 方式 A：Cloudflare Pages
+1. 在 Cloudflare 官方页面登录自己的账号，连接 GitHub。
+2. 按页面提示授权 Cloudflare GitHub App；尽量只选择安装仓库，不要授权不相关的私有源码仓库。
+3. 确认目标 Cloudflare 账号、安装仓库及资源名称。按钮会复制安装模板到你的 GitHub 账号，再部署成品，不需要取得完整工程源码。
+4. 在 `INSTALL_CONFIG` 的 Secret 输入框粘贴第一步复制的完整字符串。不要把它填成普通公开变量，也不要提交到仓库文件。
+5. 确认部署。模板负责创建和连接 D1 数据库、应用迁移、部署 Worker、两个 Workflow 和定时任务；不要自行删去其中一项。
 
-1. 登录 [Cloudflare 控制台](https://dash.cloudflare.com/)，进入 **Workers & Pages**。
-2. 选择创建应用，找到 **Pages → 直接上传 / Drag and drop**。
-3. 填写你喜欢的站点名称，上传 `mind-universe-cloudflare-pages.zip` 或它的解压文件夹，然后部署。
-4. 打开平台给你的 `https://站点名称.pages.dev` 地址，确认能看到应用。
+账号已有有效登录或授权时，不必重新登录。验证码、双重验证、仓库授权和付款确认仍由你本人处理。界面差异可对照[Cloudflare 官方部署按钮说明](https://developers.cloudflare.com/workers/platform/deploy-buttons/)。
 
-找不到相同按钮时，可对照 [Cloudflare 官方上传教程](https://developers.cloudflare.com/pages/get-started/direct-upload/)。请选择 Pages 网页上传，不是新建后台 Worker。
+### 没有出现 INSTALL_CONFIG 输入框？
 
-### 方式 B：Netlify
+不要把配置粘贴进代码或构建日志。可在 Worker 部署完成后，打开该 Worker 的 **Settings → Variables and Secrets**，新增名为 `INSTALL_CONFIG`、类型为 **Secret** 的值，粘贴原配置并保存部署。
 
-1. 登录 [Netlify](https://app.netlify.com/)，找到 **Add new project → Deploy manually（手动部署）**，也可打开 [Netlify Drop](https://app.netlify.com/drop)。
-2. 把 `mind-universe-netlify-static.zip` **解压后的文件夹**拖进上传区。确认这个文件夹第一层就是 `index.html`，不是再套一层文件夹。
-3. 部署完成后，打开平台给你的 `https://站点名称.netlify.app` 地址，确认能看到应用。
+配置未完成或无效时，业务接口会拒绝请求。不要为排错关闭鉴权或重新生成安装配置。若 Cloudflare GitHub App 授权或创建资源失败，先按页面错误处理，不要连续新建多套后台。
 
-详细界面见 [Netlify 官方手动部署说明](https://docs.netlify.com/deploy/create-deploys/)。
+## 第三步：复制后台地址，回到应用配对
 
-**记下这个网页地址，下一步要用。** 网页刚上线时还不能调用 AI，需要继续安装后台；无需在托管平台填写模型密钥。
+部署完成后，复制 Cloudflare 显示的 `https://你的后台.你的子域.workers.dev` 地址，确认它属于刚才的 Worker。
 
-## 第三步：安装自己的 Cloudflare 后台
+直接打开后台地址时，看到个人后台说明页是正常的：这里不是聊天网页，也不是所有人共用的公共服务；页面不展示配对码或安装配置。
 
-先准备两个值：
+1. 回到[Cloudflare 网页](https://mu-beta.pages.dev/)或[Netlify 网页](https://mu-beta.netlify.app/)，也可以打开自己部署的网页。
+2. 进入 **设置 → 个人后台**，填写后台地址和第一步生成的配对码。
+3. 配对码可从仍打开的准备页复制；页面内容丢失时，用保存的 `MU-installation` JSON 恢复原配置后复制。不要误填完整 `INSTALL_CONFIG`。
+4. 连接并执行连接检查。成功后，应用保存设备凭据；配对码不是日常聊天密钥。
+5. 进入原 **API Keys** 页面保存模型或语音密钥，在模型设置中绑定并选择模型，再发一条不含隐私的测试消息。
 
-- **网页地址**：上一步的 HTTPS 地址，只保留协议和域名，不带末尾 `/`、页面路径或参数。
-- **Cloudflare Account ID（账号 ID）**：自己的 Cloudflare 账号编号，不是邮箱、Zone ID 或 API Key。下面登录后可用 `whoami` 查看。
+Cloudflare 管理令牌、账号密码不填进应用。模型 API Key、配对码和 `INSTALL_CONFIG` 是三种不同的值。
 
-以下命令在**同一个终端窗口**中依次执行。macOS 打开“终端”；Linux 打开系统终端。只复制代码框中的内容。
+## 第四步：添加到主屏幕
 
-### 3.1 安装工具并登录
+- iPhone：在 Safari 分享菜单中选择 **添加到主屏幕**。
+- Android：使用支持网页应用安装的浏览器，选择 **安装应用 / 添加到主屏幕**。
 
-从 [Node.js 官方网站](https://nodejs.org/en/download) 安装 Node.js **24.20.0**，重开终端，运行 `node -v` 确认版本。
+从主屏幕图标打开后，再确认个人后台和模型设置。不同浏览器、网址以及主屏幕应用不一定共享存储，必要时重新配对；聊天记录需通过备份导入，不会因登录同一个 Cloudflare 自动出现。电脑不需要保持开机。
 
-复制执行下面三行，安装并启动 Cloudflare 官方登录工具 Wrangler：
+## 多个后台与更新
 
-```sh
-npm install --prefix "$HOME/.local/share/mind-universe-tools" wrangler@4.129.0
-MU_WRANGLER_JS="$HOME/.local/share/mind-universe-tools/node_modules/wrangler/bin/wrangler.js"
-node "$MU_WRANGLER_JS" login
-```
+可以保存多个后台并选择当前使用的一个。切换前先关闭原后台回复和自主聊天，确认云端停止、收取在途结果；无法确认时保留原连接，先恢复旧后台。保存列表不代表多套后台会同时为当前页面执行任务。
 
-浏览器会打开 Cloudflare 的授权页面。确认是你自己的账号后授权，再回到终端执行：
+更新自己的后台时，沿用原 Worker、D1、两个 Workflow 和原 `INSTALL_CONFIG`。作者更新发行仓库后，你自己账号中的副本不会自动获得更新；按对应版本说明更新副本并重新部署。不要再次按首次安装生成新配置或创建替代数据库。
 
-```sh
-node "$MU_WRANGLER_JS" whoami
-```
+完整说明见[更新、迁移与停用](FAQ.md#更新迁移与停用)。
 
-从结果中找到要安装后台的 **Account ID**。如果显示多个账号，只选你有权使用的那个；不要把登录凭据发给他人。
+## 可选：自己部署网页
 
-首次使用 Workers 的账号，还需要在 Cloudflare 控制台的 **Workers & Pages** 完成开通，按提示设置自己的 **workers.dev 子域名**。无需手工创建示例 Worker。已有子域名则跳过；安装工具不会代你完成这个首次设置。
+当前网页 ZIP 尚未开放下载，请先使用本文顶部的两个内测网页。以下是开放下载后的可选操作；后台安装不需要等待网页 ZIP。
 
-### 3.2 进入后台文件夹并检查
+开放后，从同一个 [Release](https://github.com/richzorya/mind-universe-release/releases) 下载一个网页成品包。只想用统一网页时可跳过此节。
 
-在终端输入 `cd `（后面留一个空格），把第一步解压出的**后台文件夹**拖进终端，按回车。确认当前文件夹中有 `install.mjs`，然后执行：
+### Cloudflare Pages
 
-```sh
-node check-package.mjs
-```
+在自己的 Cloudflare **Workers & Pages → Pages → 直接上传 / Drag and drop** 中创建站点，上传 `mind-universe-cloudflare-pages.zip` 或其解压目录。第一层应有 `index.html`。这是 Pages 网页上传，不是后台 Worker，也不需要连接源码仓库。[官方直接上传教程](https://developers.cloudflare.com/pages/get-started/direct-upload/)
 
-检查通过后再继续；失败时重新从同一 Release 下载，不要删文件或跳过检查。
+### Netlify
 
-### 3.3 填入自己的信息
+下载并解压 `mind-universe-netlify-static.zip`，在自己的 Netlify **Deploy manually** 或 [Netlify Drop](https://app.netlify.com/drop) 上传第一层包含 `index.html` 的目录；手动拖拽方式用电脑更方便。[官方部署说明](https://docs.netlify.com/deploy/create-deploys/)
 
-将下方前两行的中文替换为你自己的值，保留英文引号，然后复制执行。下面只是占位文字，不是可用账号或网址。
+取得新网页地址后，首次生成配置时选择该精确来源。已有后台换域名时先保留旧配置和数据，按恢复流程调整允许来源，不要生成一套新密钥。
 
-```sh
-MU_ACCOUNT_ID="替换为你的Cloudflare账号ID"
-MU_WEB_ORIGIN="替换为你的HTTPS网页地址"
-MU_STATE_DIR="$HOME/.config/mind-universe-personal"
-node install.mjs --prepare --package-dir "$PWD" --state-dir "$MU_STATE_DIR" --account-id "$MU_ACCOUNT_ID" --origins "$MU_WEB_ORIGIN"
-```
+## 可选：旧电脑命令行安装器
 
-这一步只在电脑保存安装信息，不创建云资源。`mind-universe-personal` 目录用于保存后台的安装记录和密钥，请保留在本机，不放进 GitHub、网页上传目录或公开同步盘；升级还需要它。成功后不再重复执行 `--prepare`。
-
-### 3.4 确认账号和费用，执行安装
-
-下一条命令会在刚才指定的 Cloudflare 账号里创建后台程序、数据库和定时任务（Worker、D1、两个 Workflows 及 Cron）。用量计入你自己的账号，具体额度和费用以 Cloudflare 为准；不要为了继续安装而盲目开通付费套餐。
-
-确认后执行：
-
-```sh
-node install.mjs --apply --package-dir "$PWD" --state-dir "$MU_STATE_DIR" --wrangler-js "$MU_WRANGLER_JS"
-```
-
-等命令完成。不要重复新建安装目录来重试；报错时先看[安装失败怎么办](FAQ.md#安装失败怎么办)。
-
-### 3.5 找到后台地址与配对码
-
-安装成功后，用电脑的文本编辑器打开：
-
-```text
-~/.config/mind-universe-personal/pairing-result.json
-```
-
-macOS 可在 Finder 按 `⌘⇧G`，粘贴上面的路径后打开；Linux 可在文件管理器的地址栏输入该路径。`~` 表示你的用户主目录。
-
-只需从文件里复制两个值：
-
-- `backendUrl`：填到网页的“后台地址”。
-- `pairingCode`：填到网页的“配对码”。
-
-不要复制字段名或两边的引号。配对码由安装工具生成，**不是** Cloudflare 密码，也不是模型 API Key；不要截图分享这个文件。
-
-## 第四步：在网页连接并开始聊天
-
-1. 打开第二步的网页，进入 **设置 → 个人后台**。
-2. 输入后台地址和配对码，按页面提示连接，确认显示连接成功。
-3. 进入 **设置 → API Keys** 保存自己的密钥，再到 **设置 → 模型** 绑定密钥并选择模型。需要语音时，在“声音和实时通话”中配置语音预设。
-4. 发一条不含隐私的测试消息，确认收到回复。连接失败时先排查，不会自动使用作者的后台。
-
-不要把 Cloudflare 账号管理令牌填进 API Keys，也不要把配对码当成模型密钥。
-
-## 第五步：添加到手机主屏幕
-
-用手机打开**同一个网页地址**，完成个人后台连接和 API Keys 配置。电脑上的记录与密钥不会自动同步到手机；需要已有内容时，先备份再导入。
-
-- iPhone：用 Safari 打开，选择分享菜单中的 **添加到主屏幕**。
-- Android：用支持网页应用安装的浏览器，选择菜单中的 **安装应用 / 添加到主屏幕**。
-
-从主屏幕图标打开后，确认后台连接和模型设置；若系统使用了独立的数据空间，重新配对并导入备份即可。之后不需要让安装用的电脑一直开着。
-
-下一步：[费用与常见问题](FAQ.md) · [备份、更新和停用](FAQ.md#更新迁移与停用)
+后台 ZIP 中的 `install.mjs` 仍是面向 macOS / Linux 的独立命令行工具，采用本机私有安装目录。它不是上面的浏览器安装流程，不支持把 Windows 原生文件权限视为 POSIX 权限。普通用户无需运行它；已有这种安装应继续保留原目录和密钥，不要与新生成的手机配置混用。

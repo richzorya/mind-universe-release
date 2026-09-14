@@ -1237,6 +1237,7 @@
       "fonts/loading/mu-loading-hand.woff2",
       "fonts/loading/mu-loading-marker.woff2",
       "fonts/phone/fusion-pixel-12px-monospaced-zh_hans.otf.woff2",
+      "fonts/resident/toneoz-tsuipita-tc-0.24071.woff2",
       "fonts/stationery/liu-jian-mao-cao-v1.003/full.woff2",
       "fonts/stationery/ma-shan-zheng-v2.003/full.woff2",
       "fonts/stationery/marker-v1.003/common.woff2",
@@ -1254,6 +1255,7 @@
       "licenses/fonts/loading/OFL-ComicNeue.txt",
       "licenses/fonts/loading/OFL-Xiaolai.txt",
       "licenses/fonts/phone/LICENSE-OFL.txt",
+      "licenses/fonts/resident/OFL.txt",
       "licenses/fonts/stationery/LiuJianMaoCao-OFL.txt",
       "licenses/fonts/stationery/Marker-OFL.txt",
       "licenses/fonts/stationery/MaShanZheng-OFL.txt",
@@ -1380,7 +1382,7 @@
   "publicReleaseGates": [
     {
       "code": "PUBLICATION_REVIEW_REQUIRED",
-      "message": "仅生成私有内测候选；公开前仍需维护者核实权属、安装验收、正式地址与授权。"
+      "message": "仅生成 Beta 候选；公开前仍需维护者核实权属、安装验收、实际地址与授权。"
     },
     {
       "code": "BUNDLE_MEMBERSHIP_REVIEW",
@@ -1408,8 +1410,8 @@
     {
       "code": "FONT_DERIVATION_REVIEW",
       "message": "已列出实际字体文件和随包许可，但字体逐一归属、修改及保留名称义务仍需人工核验。",
-      "files": 398,
-      "notices": 12
+      "files": 399,
+      "notices": 13
     },
     {
       "code": "ASSET_RIGHTS_REVIEW",
