@@ -1,0 +1,1420 @@
+{
+  "formatVersion": 1,
+  "status": "review-required",
+  "packages": [
+    {
+      "scope": "frontend",
+      "name": "@babel/runtime",
+      "version": "7.29.7",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-_babel_runtime-7.29.7-b0d8c4c3/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "@base-ui/react",
+      "version": "1.8.0",
+      "license": "MIT",
+      "direct": true,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-_base-ui_react-1.8.0-41c28eb6/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "@base-ui/utils",
+      "version": "0.4.0",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-_base-ui_utils-0.4.0-9f5284f7/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "@dnd-kit/accessibility",
+      "version": "3.1.1",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-_dnd-kit_accessibility-3.1.1-9544f07c/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "@dnd-kit/core",
+      "version": "6.3.1",
+      "license": "MIT",
+      "direct": true,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-_dnd-kit_core-6.3.1-b9a198e5/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "@dnd-kit/utilities",
+      "version": "3.2.2",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-_dnd-kit_utilities-3.2.2-afb08883/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "@floating-ui/core",
+      "version": "1.8.0",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-_floating-ui_core-1.8.0-46ec3484/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "@floating-ui/dom",
+      "version": "1.8.0",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-_floating-ui_dom-1.8.0-f505c358/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "@floating-ui/react-dom",
+      "version": "2.1.9",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-_floating-ui_react-dom-2.1.9-1a54005a/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "@floating-ui/utils",
+      "version": "0.2.12",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-_floating-ui_utils-0.2.12-09bd0df8/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "@phone-assistant/core",
+      "version": "0.2.0",
+      "license": "MIT",
+      "direct": true,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-_phone-assistant_core-0.2.0-30b5c1e1/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "@phone-assistant/react",
+      "version": "0.2.0",
+      "license": "MIT",
+      "direct": true,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-_phone-assistant_react-0.2.0-a8aab000/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "@tanstack/react-virtual",
+      "version": "3.14.10",
+      "license": "MIT",
+      "direct": true,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-_tanstack_react-virtual-3.14.10-448f5f73/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "@tanstack/virtual-core",
+      "version": "3.17.8",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-_tanstack_virtual-core-3.17.8-c2babfc4/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "@types/d3-color",
+      "version": "3.1.3",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-_types_d3-color-3.1.3-602110a4/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "@types/d3-drag",
+      "version": "3.0.7",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-_types_d3-drag-3.0.7-5a00b494/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "@types/d3-interpolate",
+      "version": "3.0.4",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-_types_d3-interpolate-3.0.4-09828c55/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "@types/d3-selection",
+      "version": "3.0.11",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-_types_d3-selection-3.0.11-3d4d0333/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "@types/d3-transition",
+      "version": "3.0.9",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-_types_d3-transition-3.0.9-f0fae1c0/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "@types/d3-zoom",
+      "version": "3.0.8",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-_types_d3-zoom-3.0.8-f958472a/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "@types/react",
+      "version": "19.2.18",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-_types_react-19.2.18-2300dff8/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "@types/react-dom",
+      "version": "19.2.7",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-_types_react-dom-19.2.7-278d2b69/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "@types/trusted-types",
+      "version": "2.0.7",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-_types_trusted-types-2.0.7-06921622/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "@xyflow/react",
+      "version": "12.11.6",
+      "license": "MIT",
+      "direct": true,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-_xyflow_react-12.11.6-b782546b/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "zustand",
+      "version": "4.5.7",
+      "license": "MIT",
+      "direct": true,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-zustand-4.5.7-d7456b91/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "@xyflow/system",
+      "version": "0.0.82",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-_xyflow_system-0.0.82-ad1d4b3f/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "@zip.js/zip.js",
+      "version": "2.13.1",
+      "license": "BSD-3-Clause",
+      "direct": true,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-_zip.js_zip.js-2.13.1-1eb33d31/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "classcat",
+      "version": "5.0.5",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-classcat-5.0.5-05b2433b/LICENSE.md.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "clsx",
+      "version": "2.1.1",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-clsx-2.1.1-d66d2554/license.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "csstype",
+      "version": "3.2.3",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-csstype-3.2.3-8c4a8a76/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "d3-color",
+      "version": "3.1.0",
+      "license": "ISC",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-d3-color-3.1.0-e73223f6/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "d3-dispatch",
+      "version": "3.0.1",
+      "license": "ISC",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-d3-dispatch-3.0.1-72073cac/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "d3-drag",
+      "version": "3.0.0",
+      "license": "ISC",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-d3-drag-3.0.0-37f15f8c/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "d3-ease",
+      "version": "3.0.1",
+      "license": "BSD-3-Clause",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-d3-ease-3.0.1-779dc8df/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "d3-interpolate",
+      "version": "3.0.1",
+      "license": "ISC",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-d3-interpolate-3.0.1-ede6e5e3/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "d3-selection",
+      "version": "3.0.0",
+      "license": "ISC",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-d3-selection-3.0.0-27cba0f3/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "d3-timer",
+      "version": "3.0.1",
+      "license": "ISC",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-d3-timer-3.0.1-5d08ea60/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "d3-transition",
+      "version": "3.0.1",
+      "license": "ISC",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-d3-transition-3.0.1-28fc16c8/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "d3-zoom",
+      "version": "3.0.0",
+      "license": "ISC",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-d3-zoom-3.0.0-f74484d4/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "dompurify",
+      "version": "3.4.15",
+      "license": "(MPL-2.0 OR Apache-2.0)",
+      "direct": true,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-dompurify-3.4.15-b6315023/LICENSE.txt",
+        "licenses/npm/frontend-dompurify-3.4.15-b6315023/LICENSE-MPL.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "fast-equals",
+      "version": "4.0.3",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-fast-equals-4.0.3-b508e983/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "fflate",
+      "version": "0.8.3",
+      "license": "MIT",
+      "direct": true,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-fflate-0.8.3-848106b3/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "framer-motion",
+      "version": "13.2.0",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-framer-motion-13.2.0-bfed0a99/LICENSE.md.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "fuse.js",
+      "version": "7.5.0",
+      "license": "Apache-2.0",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-fuse.js-7.5.0-21891bd8/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "js-tokens",
+      "version": "4.0.0",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-js-tokens-4.0.0-0fe19584/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "jsonrepair",
+      "version": "3.15.0",
+      "license": "ISC",
+      "direct": true,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-jsonrepair-3.15.0-05710f37/LICENSE.md.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "loose-envify",
+      "version": "1.4.0",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-loose-envify-1.4.0-f423fcb1/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "marked",
+      "version": "18.0.12",
+      "license": "MIT",
+      "direct": true,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-marked-18.0.12-f9600e51/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "motion",
+      "version": "13.2.0",
+      "license": "MIT",
+      "direct": true,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-motion-13.2.0-d3202696/LICENSE.md.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "motion-dom",
+      "version": "13.2.0",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-motion-dom-13.2.0-0875825d/LICENSE.md.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "motion-utils",
+      "version": "13.0.0",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-motion-utils-13.0.0-59e75540/LICENSE.md.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "normalize-wheel",
+      "version": "1.0.1",
+      "license": "BSD-3-Clause",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-normalize-wheel-1.0.1-7d146e1a/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "object-assign",
+      "version": "4.1.1",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-object-assign-4.1.1-c145d125/license.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "pinyin-pro",
+      "version": "3.29.3",
+      "license": "MIT",
+      "direct": true,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-pinyin-pro-3.29.3-a240b66e/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "prop-types",
+      "version": "15.8.1",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-prop-types-15.8.1-38336846/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "react",
+      "version": "19.2.8",
+      "license": "MIT",
+      "direct": true,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-react-19.2.8-c32755ef/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "react-dom",
+      "version": "19.2.8",
+      "license": "MIT",
+      "direct": true,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-react-dom-19.2.8-d5a4b102/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "react-draggable",
+      "version": "4.7.1",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-react-draggable-4.7.1-4692fe6b/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "react-easy-crop",
+      "version": "6.2.3",
+      "license": "MIT",
+      "direct": true,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-react-easy-crop-6.2.3-bdb9cd3b/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "react-grid-layout",
+      "version": "2.2.4",
+      "license": "MIT",
+      "direct": true,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-react-grid-layout-2.2.4-b6e1d75c/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "react-icons",
+      "version": "5.7.0",
+      "license": "MIT",
+      "direct": true,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-react-icons-5.7.0-22e3a8b3/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "react-is",
+      "version": "16.13.1",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-react-is-16.13.1-083c4f82/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "react-resizable",
+      "version": "3.2.0",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-react-resizable-3.2.0-afaebb2f/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "reselect",
+      "version": "5.3.0",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-reselect-5.3.0-f833ca61/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "resize-observer-polyfill",
+      "version": "1.5.1",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-resize-observer-polyfill-1.5.1-3d6ec5c7/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "scheduler",
+      "version": "0.27.0",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-scheduler-0.27.0-7bf6cc1c/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "three",
+      "version": "0.185.1",
+      "license": "MIT",
+      "direct": true,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-three-0.185.1-083d00ad/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "tslib",
+      "version": "2.8.1",
+      "license": "0BSD",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-tslib-2.8.1-7e89d502/LICENSE.txt.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "use-sync-external-store",
+      "version": "1.6.0",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-use-sync-external-store-1.6.0-6ea4d325/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "weather-animations",
+      "version": "1.1.1",
+      "license": "MIT",
+      "direct": true,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-weather-animations-1.1.1-62dc94a2/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "zod",
+      "version": "4.5.4",
+      "license": "MIT",
+      "direct": true,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-zod-4.5.4-1a876f59/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "frontend",
+      "name": "zustand",
+      "version": "5.0.15",
+      "license": "MIT",
+      "direct": true,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/frontend-zustand-5.0.15-d9bbf2dc/LICENSE.txt"
+      ]
+    },
+    {
+      "scope": "backend",
+      "name": "@block65/webcrypto-web-push",
+      "version": "2.0.0",
+      "license": "MIT",
+      "direct": true,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/backend-_block65_webcrypto-web-push-2.0.0-972a1864/LICENSE.md.txt"
+      ]
+    },
+    {
+      "scope": "backend",
+      "name": "jsonrepair",
+      "version": "3.15.0",
+      "license": "ISC",
+      "direct": true,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/backend-jsonrepair-3.15.0-05710f37/LICENSE.md.txt"
+      ]
+    },
+    {
+      "scope": "backend",
+      "name": "uint8array-extras",
+      "version": "1.5.0",
+      "license": "MIT",
+      "direct": false,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/backend-uint8array-extras-1.5.0-e826c0e1/license.txt"
+      ]
+    },
+    {
+      "scope": "backend",
+      "name": "zod",
+      "version": "4.5.4",
+      "license": "MIT",
+      "direct": true,
+      "inclusion": "production-dependency-candidate",
+      "notices": [
+        "licenses/npm/backend-zod-4.5.4-1a876f59/LICENSE.txt"
+      ]
+    }
+  ],
+  "vendor": [
+    {
+      "component": "foliate-js",
+      "notice": "licenses/vendor/src_vendor-foliate-js_LICENSE.txt",
+      "inclusion": "vendored-candidate-needs-bundle-review"
+    }
+  ],
+  "fonts": {
+    "actualIncludedFiles": [
+      "fonts/archive/serif-sc-v2.003/common.woff2",
+      "fonts/archive/serif-sc-v2.003/u00200.woff2",
+      "fonts/archive/serif-sc-v2.003/u00400.woff2",
+      "fonts/archive/serif-sc-v2.003/u01e00.woff2",
+      "fonts/archive/serif-sc-v2.003/u02000.woff2",
+      "fonts/archive/serif-sc-v2.003/u02200.woff2",
+      "fonts/archive/serif-sc-v2.003/u02400.woff2",
+      "fonts/archive/serif-sc-v2.003/u02600.woff2",
+      "fonts/archive/serif-sc-v2.003/u02800.woff2",
+      "fonts/archive/serif-sc-v2.003/u02a00.woff2",
+      "fonts/archive/serif-sc-v2.003/u02e00.woff2",
+      "fonts/archive/serif-sc-v2.003/u03000.woff2",
+      "fonts/archive/serif-sc-v2.003/u03200.woff2",
+      "fonts/archive/serif-sc-v2.003/u03400.woff2",
+      "fonts/archive/serif-sc-v2.003/u03600.woff2",
+      "fonts/archive/serif-sc-v2.003/u03800.woff2",
+      "fonts/archive/serif-sc-v2.003/u03a00.woff2",
+      "fonts/archive/serif-sc-v2.003/u03c00.woff2",
+      "fonts/archive/serif-sc-v2.003/u03e00.woff2",
+      "fonts/archive/serif-sc-v2.003/u04000.woff2",
+      "fonts/archive/serif-sc-v2.003/u04200.woff2",
+      "fonts/archive/serif-sc-v2.003/u04400.woff2",
+      "fonts/archive/serif-sc-v2.003/u04600.woff2",
+      "fonts/archive/serif-sc-v2.003/u04800.woff2",
+      "fonts/archive/serif-sc-v2.003/u04a00.woff2",
+      "fonts/archive/serif-sc-v2.003/u04c00.woff2",
+      "fonts/archive/serif-sc-v2.003/u04e00.woff2",
+      "fonts/archive/serif-sc-v2.003/u05000.woff2",
+      "fonts/archive/serif-sc-v2.003/u05200.woff2",
+      "fonts/archive/serif-sc-v2.003/u05400.woff2",
+      "fonts/archive/serif-sc-v2.003/u05600.woff2",
+      "fonts/archive/serif-sc-v2.003/u05800.woff2",
+      "fonts/archive/serif-sc-v2.003/u05a00.woff2",
+      "fonts/archive/serif-sc-v2.003/u05c00.woff2",
+      "fonts/archive/serif-sc-v2.003/u05e00.woff2",
+      "fonts/archive/serif-sc-v2.003/u06000.woff2",
+      "fonts/archive/serif-sc-v2.003/u06200.woff2",
+      "fonts/archive/serif-sc-v2.003/u06400.woff2",
+      "fonts/archive/serif-sc-v2.003/u06600.woff2",
+      "fonts/archive/serif-sc-v2.003/u06800.woff2",
+      "fonts/archive/serif-sc-v2.003/u06a00.woff2",
+      "fonts/archive/serif-sc-v2.003/u06c00.woff2",
+      "fonts/archive/serif-sc-v2.003/u06e00.woff2",
+      "fonts/archive/serif-sc-v2.003/u07000.woff2",
+      "fonts/archive/serif-sc-v2.003/u07200.woff2",
+      "fonts/archive/serif-sc-v2.003/u07400.woff2",
+      "fonts/archive/serif-sc-v2.003/u07600.woff2",
+      "fonts/archive/serif-sc-v2.003/u07800.woff2",
+      "fonts/archive/serif-sc-v2.003/u07a00.woff2",
+      "fonts/archive/serif-sc-v2.003/u07c00.woff2",
+      "fonts/archive/serif-sc-v2.003/u07e00.woff2",
+      "fonts/archive/serif-sc-v2.003/u08000.woff2",
+      "fonts/archive/serif-sc-v2.003/u08200.woff2",
+      "fonts/archive/serif-sc-v2.003/u08400.woff2",
+      "fonts/archive/serif-sc-v2.003/u08600.woff2",
+      "fonts/archive/serif-sc-v2.003/u08800.woff2",
+      "fonts/archive/serif-sc-v2.003/u08a00.woff2",
+      "fonts/archive/serif-sc-v2.003/u08c00.woff2",
+      "fonts/archive/serif-sc-v2.003/u08e00.woff2",
+      "fonts/archive/serif-sc-v2.003/u09000.woff2",
+      "fonts/archive/serif-sc-v2.003/u09200.woff2",
+      "fonts/archive/serif-sc-v2.003/u09400.woff2",
+      "fonts/archive/serif-sc-v2.003/u09600.woff2",
+      "fonts/archive/serif-sc-v2.003/u09800.woff2",
+      "fonts/archive/serif-sc-v2.003/u09a00.woff2",
+      "fonts/archive/serif-sc-v2.003/u09c00.woff2",
+      "fonts/archive/serif-sc-v2.003/u09e00.woff2",
+      "fonts/archive/serif-sc-v2.003/u0f800.woff2",
+      "fonts/archive/serif-sc-v2.003/u0fa00.woff2",
+      "fonts/archive/serif-sc-v2.003/u0fe00.woff2",
+      "fonts/archive/serif-sc-v2.003/u1f000.woff2",
+      "fonts/archive/serif-sc-v2.003/u1f200.woff2",
+      "fonts/archive/serif-sc-v2.003/u20000.woff2",
+      "fonts/archive/serif-sc-v2.003/u20600.woff2",
+      "fonts/archive/serif-sc-v2.003/u20c00.woff2",
+      "fonts/archive/serif-sc-v2.003/u21200.woff2",
+      "fonts/archive/serif-sc-v2.003/u21400.woff2",
+      "fonts/archive/serif-sc-v2.003/u22800.woff2",
+      "fonts/archive/serif-sc-v2.003/u23400.woff2",
+      "fonts/archive/serif-sc-v2.003/u23c00.woff2",
+      "fonts/archive/serif-sc-v2.003/u23e00.woff2",
+      "fonts/archive/serif-sc-v2.003/u24000.woff2",
+      "fonts/archive/serif-sc-v2.003/u24200.woff2",
+      "fonts/archive/serif-sc-v2.003/u24800.woff2",
+      "fonts/archive/serif-sc-v2.003/u24a00.woff2",
+      "fonts/archive/serif-sc-v2.003/u25400.woff2",
+      "fonts/archive/serif-sc-v2.003/u25e00.woff2",
+      "fonts/archive/serif-sc-v2.003/u26200.woff2",
+      "fonts/archive/serif-sc-v2.003/u26400.woff2",
+      "fonts/archive/serif-sc-v2.003/u26600.woff2",
+      "fonts/archive/serif-sc-v2.003/u26800.woff2",
+      "fonts/archive/serif-sc-v2.003/u26a00.woff2",
+      "fonts/archive/serif-sc-v2.003/u26c00.woff2",
+      "fonts/archive/serif-sc-v2.003/u27800.woff2",
+      "fonts/archive/serif-sc-v2.003/u27e00.woff2",
+      "fonts/archive/serif-sc-v2.003/u28400.woff2",
+      "fonts/archive/serif-sc-v2.003/u28600.woff2",
+      "fonts/archive/serif-sc-v2.003/u28a00.woff2",
+      "fonts/archive/serif-sc-v2.003/u28c00.woff2",
+      "fonts/archive/serif-sc-v2.003/u28e00.woff2",
+      "fonts/archive/serif-sc-v2.003/u29600.woff2",
+      "fonts/archive/serif-sc-v2.003/u29800.woff2",
+      "fonts/archive/serif-sc-v2.003/u29e00.woff2",
+      "fonts/archive/serif-sc-v2.003/u2a600.woff2",
+      "fonts/archive/serif-sc-v2.003/u2a800.woff2",
+      "fonts/archive/serif-sc-v2.003/u2aa00.woff2",
+      "fonts/archive/serif-sc-v2.003/u2ae00.woff2",
+      "fonts/archive/serif-sc-v2.003/u2b000.woff2",
+      "fonts/archive/serif-sc-v2.003/u2b200.woff2",
+      "fonts/archive/serif-sc-v2.003/u2b400.woff2",
+      "fonts/archive/serif-sc-v2.003/u2b600.woff2",
+      "fonts/archive/serif-sc-v2.003/u2b800.woff2",
+      "fonts/archive/serif-sc-v2.003/u2ba00.woff2",
+      "fonts/archive/serif-sc-v2.003/u2bc00.woff2",
+      "fonts/archive/serif-sc-v2.003/u2be00.woff2",
+      "fonts/archive/serif-sc-v2.003/u2c000.woff2",
+      "fonts/archive/serif-sc-v2.003/u2c200.woff2",
+      "fonts/archive/serif-sc-v2.003/u2c400.woff2",
+      "fonts/archive/serif-sc-v2.003/u2c600.woff2",
+      "fonts/archive/serif-sc-v2.003/u2c800.woff2",
+      "fonts/archive/serif-sc-v2.003/u2ca00.woff2",
+      "fonts/archive/serif-sc-v2.003/u2cc00.woff2",
+      "fonts/archive/serif-sc-v2.003/u2ce00.woff2",
+      "fonts/archive/serif-sc-v2.003/u2d400.woff2",
+      "fonts/archive/serif-sc-v2.003/u2f800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/common.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u00200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u00400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u00e00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u01c00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u01e00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u02000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u02200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u02400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u02600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u02800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u02a00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u02c00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u02e00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u03000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u03200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u03400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u03600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u03800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u03a00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u03c00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u03e00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u04000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u04200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u04400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u04600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u04800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u04a00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u04c00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u04e00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u05000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u05200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u05400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u05600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u05800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u05a00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u05c00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u05e00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u06000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u06200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u06400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u06600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u06800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u06a00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u06c00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u06e00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u07000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u07200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u07400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u07600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u07800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u07a00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u07c00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u07e00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u08000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u08200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u08400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u08600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u08800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u08a00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u08c00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u08e00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u09000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u09200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u09400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u09600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u09800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u09a00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u09c00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u09e00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0a400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0a600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0aa00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0ac00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0ae00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0b000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0b200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0b400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0b600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0b800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0ba00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0bc00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0be00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0c000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0c200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0c400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0c600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0c800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0ca00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0cc00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0ce00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0d000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0d200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0d400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0d600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0e000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0e400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0ee00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0f000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0f800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0fa00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u0fe00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u10600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u11e00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u16e00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u1b000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u1d200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u1f000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u1f200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u1f600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u1fa00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u20000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u20200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u20400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u20600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u20800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u20a00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u20c00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u20e00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u21000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u21200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u21400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u21600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u21800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u21a00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u21c00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u21e00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u22000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u22200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u22400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u22600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u22800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u22a00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u22c00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u22e00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u23000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u23200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u23400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u23600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u23800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u23a00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u23c00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u23e00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u24000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u24200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u24400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u24600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u24800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u24a00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u24c00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u24e00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u25000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u25200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u25400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u25600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u25800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u25a00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u25c00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u25e00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u26000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u26200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u26400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u26600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u26800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u26a00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u26c00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u26e00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u27000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u27200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u27400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u27600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u27800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u27a00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u27c00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u27e00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u28000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u28200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u28400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u28600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u28800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u28a00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u28c00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u28e00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u29000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u29200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u29400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u29600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u29800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u29a00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u29c00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u29e00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2a000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2a200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2a400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2a600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2a800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2aa00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2ac00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2ae00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2b000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2b200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2b400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2b600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2b800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2ba00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2bc00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2be00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2c000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2c200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2c400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2c600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2c800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2ca00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2cc00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2ce00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2d000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2d200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2d400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2d600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2d800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2da00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2dc00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2de00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2e000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2e200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2e400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2e600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2e800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2ea00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2ec00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2ee00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u2f800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u30000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u30200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u30400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u30600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u30800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u30a00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u30c00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u30e00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u31000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u31200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u31400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u31600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u31800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u31a00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u31c00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u31e00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u32000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u32200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u32400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u32600.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u32800.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u32a00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u32c00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u32e00.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u33000.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u33200.woff2",
+      "fonts/archive/wenkai-gb-v1.522/u33400.woff2",
+      "fonts/archive/wenkai-gb-v1.522/uffe00.woff2",
+      "fonts/loading/mu-loading-hand.woff2",
+      "fonts/loading/mu-loading-marker.woff2",
+      "fonts/phone/fusion-pixel-12px-monospaced-zh_hans.otf.woff2",
+      "fonts/stationery/liu-jian-mao-cao-v1.003/full.woff2",
+      "fonts/stationery/ma-shan-zheng-v2.003/full.woff2",
+      "fonts/stationery/marker-v1.003/common.woff2",
+      "fonts/stationery/marker-v1.003/extended.woff2",
+      "fonts/stationery/sarasa-mono-sc-v1.0.41/common.woff2",
+      "fonts/stationery/sarasa-mono-sc-v1.0.41/extended.woff2",
+      "fonts/stationery/xiaolai-v3.126/common.woff2",
+      "fonts/stationery/xiaolai-v3.126/extended.woff2",
+      "fonts/stationery/yozai-v0.868/full.woff2",
+      "fonts/stationery/zhi-mang-xing-v2.001/full.woff2"
+    ],
+    "notices": [
+      "licenses/fonts/archive/LXGWWenKaiGB-OFL.txt",
+      "licenses/fonts/archive/NotoSerifSC-OFL.txt",
+      "licenses/fonts/loading/OFL-ComicNeue.txt",
+      "licenses/fonts/loading/OFL-Xiaolai.txt",
+      "licenses/fonts/phone/LICENSE-OFL.txt",
+      "licenses/fonts/stationery/LiuJianMaoCao-OFL.txt",
+      "licenses/fonts/stationery/Marker-OFL.txt",
+      "licenses/fonts/stationery/MaShanZheng-OFL.txt",
+      "licenses/fonts/stationery/Sarasa-OFL.txt",
+      "licenses/fonts/stationery/Xiaolai-OFL.txt",
+      "licenses/fonts/stationery/Yozai-OFL.txt",
+      "licenses/fonts/stationery/ZhiMangXing-OFL.txt"
+    ]
+  },
+  "media": {
+    "actualIncludedFiles": [
+      "apple-touch-icon.png",
+      "assets/01-ol0x-baT.webp",
+      "assets/02-D5SkVQ6Q.webp",
+      "assets/03-yVF5kUl4.webp",
+      "assets/04-msuc1Wzx.webp",
+      "assets/05-BeGrZoPb.webp",
+      "assets/06--ffqLkcH.webp",
+      "assets/07-CqtHQ222.webp",
+      "assets/08-DPcs6tmS.webp",
+      "assets/09-CL1EO_Gl.webp",
+      "assets/10-CLk-Fb0w.webp",
+      "assets/11-S5MfIpe0.webp",
+      "assets/12-DZAjZtnK.webp",
+      "assets/13-DASTQcwS.webp",
+      "assets/14-CWUcp1JC.webp",
+      "assets/15-K5YqV3Q0.webp",
+      "assets/16-CB90GFgo.webp",
+      "avatars/blue.webp",
+      "avatars/coffee.webp",
+      "avatars/lilac.webp",
+      "avatars/mint.webp",
+      "avatars/peach.webp",
+      "avatars/skincare.webp",
+      "avatars/sleep.webp",
+      "avatars/work.webp",
+      "douba-icon.svg",
+      "douba/avatars/board-city.svg",
+      "douba/avatars/board-star.svg",
+      "douba/avatars/board-work.svg",
+      "douba/avatars/npc-0.svg",
+      "douba/avatars/npc-1.svg",
+      "douba/avatars/npc-2.svg",
+      "douba/avatars/npc-3.svg",
+      "douba/avatars/npc-4.svg",
+      "douba/avatars/npc-5.svg",
+      "douba/books/border-town.svg",
+      "douba/books/cihua.svg",
+      "douba/books/little-prince.svg",
+      "favicon-32.png",
+      "images/archive/city-cover-default.webp",
+      "images/desktop-pet/coffee-expressions.png",
+      "images/desktop-pet/pajamas-expressions.png",
+      "images/desktop/approved/rainbow-new.png",
+      "images/desktop/approved/rainbow-previous-selected.png",
+      "images/desktop/approved/starfall-new.png",
+      "images/desktop/coast.jpg",
+      "images/desktop/forest.jpg",
+      "images/desktop/hydrangea/approved/chat.png",
+      "images/desktop/hydrangea/approved/film-butterfly.png",
+      "images/desktop/hydrangea/approved/printed.png",
+      "images/desktop/hydrangea/approved/worldbook.png",
+      "images/desktop/hydrangea/glyphs.png",
+      "images/desktop/hydrangea/icons/archive.png",
+      "images/desktop/hydrangea/icons/calendar.png",
+      "images/desktop/hydrangea/icons/douba.png",
+      "images/desktop/hydrangea/icons/events.png",
+      "images/desktop/hydrangea/icons/lorebook.png",
+      "images/desktop/hydrangea/icons/memory.png",
+      "images/desktop/hydrangea/icons/mind-universe.png",
+      "images/desktop/hydrangea/icons/notes.png",
+      "images/desktop/hydrangea/icons/photos.png",
+      "images/desktop/hydrangea/icons/relations.png",
+      "images/desktop/hydrangea/icons/settings.png",
+      "images/desktop/hydrangea/icons/sms.png",
+      "images/desktop/hydrangea/photo.webp",
+      "images/desktop/hydrangea/wallpaper.webp",
+      "images/desktop/lake-apple/cabin.webp",
+      "images/desktop/lake-apple/green.webp",
+      "images/desktop/lake-apple/main.webp",
+      "images/desktop/lake-apple/sunset.webp",
+      "images/desktop/mind-universe.jpg",
+      "images/desktop/rainbow/cover.png",
+      "images/desktop/rainbow/cover.webp",
+      "images/desktop/rainbow/decoration.png",
+      "images/desktop/rainbow/decoration.webp",
+      "images/desktop/rainbow/flowers.png",
+      "images/desktop/rainbow/flowers.webp",
+      "images/desktop/rainbow/glyphs.png",
+      "images/desktop/rainbow/tulips.png",
+      "images/desktop/rainbow/tulips.webp",
+      "images/desktop/rainbow/wallpaper.png",
+      "images/desktop/rainbow/wallpaper.webp",
+      "images/desktop/reference-glyphs-luma.png",
+      "images/desktop/starfall/blue-cutout.png",
+      "images/desktop/starfall/glyphs.png",
+      "images/desktop/starfall/photo-tile-left.jpg",
+      "images/desktop/starfall/wallpaper.png",
+      "images/desktop/starfall/wallpaper.webp",
+      "images/desktop/study.jpg",
+      "images/desktop/vow.jpg",
+      "images/parallel-world/qing.png",
+      "images/parallel-world/republic.png",
+      "images/parallel-world/tang.png",
+      "images/phone/retro-bin.png",
+      "images/phone/retro-camera.png",
+      "images/phone/retro-clock.png",
+      "images/phone/retro-computer.png",
+      "images/phone/retro-folder.png",
+      "images/phone/retro-query.png",
+      "images/phone/retro-room.png",
+      "images/phone/retro-start.png",
+      "images/phone/retro-terminal.png",
+      "moments-cover.jpg",
+      "moments-refresh.svg",
+      "pwa-icon-192.png",
+      "pwa-icon-512.png",
+      "pwa-icon-maskable-512.png",
+      "stationery/mouse-postman.png"
+    ]
+  },
+  "backendPackageNoticesIncluded": true,
+  "backendLegalCommentsIncluded": false,
+  "publicReleaseGates": [
+    {
+      "code": "PUBLICATION_REVIEW_REQUIRED",
+      "message": "仅生成私有内测候选；公开前仍需维护者核实权属、安装验收、正式地址与授权。"
+    },
+    {
+      "code": "BUNDLE_MEMBERSHIP_REVIEW",
+      "message": "生产依赖集合不等于实际进入 bundle 的模块清单；需核对打包模块及图标子集，不能仅凭 package.json 宣称许可已清。"
+    },
+    {
+      "code": "LICENSE_TEXT_REVIEW",
+      "package": "dompurify",
+      "scope": "frontend",
+      "message": "许可文本提到 copyleft 或共享相同方式；需核对实际包含内容、范围与义务，不能推定整个包都采用该许可。"
+    },
+    {
+      "code": "COPYLEFT_OR_RESTRICTED_LICENSE",
+      "package": "dompurify",
+      "scope": "frontend",
+      "license": "(MPL-2.0 OR Apache-2.0)",
+      "message": "公开前核验许可兼容性与履约方式；未自动认定可闭源分发。"
+    },
+    {
+      "code": "LICENSE_TEXT_REVIEW",
+      "package": "react-icons",
+      "scope": "frontend",
+      "message": "许可文本提到 copyleft 或共享相同方式；需核对实际包含内容、范围与义务，不能推定整个包都采用该许可。"
+    },
+    {
+      "code": "FONT_DERIVATION_REVIEW",
+      "message": "已列出实际字体文件和随包许可，但字体逐一归属、修改及保留名称义务仍需人工核验。",
+      "files": 398,
+      "notices": 12
+    },
+    {
+      "code": "ASSET_RIGHTS_REVIEW",
+      "message": "已列出实际图片、图标和媒体；源码注释或生成记录不自动等于完整分发授权。需核实来源、肖像、商标及其他权利。",
+      "files": 108
+    }
+  ]
+}

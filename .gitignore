@@ -1,0 +1,11 @@
+# 成品放在 GitHub Releases，不进入 Git 历史。
+*.zip
+node_modules/
+.wrangler/
+.DS_Store
+.env*
+.dev.vars*
+installation.json
+pairing-result.json
+worker-secrets.json
+credentials.json
