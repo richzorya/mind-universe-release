@@ -2,6 +2,8 @@
 
 这是已编译的 Mind Universe 后台成品，不需要下载原工程或在手机上运行命令。
 
+**仅供个人学习和技术交流使用。禁止未经作者事先明确书面授权的商业化行为，包括售卖链接、收费代部署、配置、维护或托管个人后台。** 安装前请阅读[学习交流使用条款](LICENSE.txt)与[免责声明](DISCLAIMER.md)；授权事宜请先[联系作者](https://github.com/richzorya/mind-universe-release#联系作者)。
+
 [完整安装教程](https://github.com/richzorya/mind-universe-release/blob/main/docs/INSTALL.md) · [找回后台地址](https://github.com/richzorya/mind-universe-release/blob/main/docs/INSTALL.md#找回后台地址) · [找回配对码](https://github.com/richzorya/mind-universe-release/blob/main/docs/INSTALL.md#找回配对码) · [Cloudflare 项目列表](https://dash.cloudflare.com/?to=/:account/workers-and-pages)
 
 安装时要用三样内容：**安装配置**是给 Cloudflare 保存的整套秘密；**后台地址**是部署出来的访问网址；**配对码**是允许设备连接后台的口令。它们不能混填，Cloudflare 不会另发配对码。
@@ -19,7 +21,7 @@
 
 安装配置包含私密信息，只粘贴到 Cloudflare 的秘密输入框，不要提交到 GitHub、截图公开或发给其他人。模型 API Keys 仍在应用设置中填写，不需要放到这个仓库。
 
-[使用许可](LICENSE.txt) · [第三方声明](THIRD_PARTY_NOTICES.md) · [安全问题](SECURITY.md)
+[学习交流使用条款](LICENSE.txt) · [免责声明](DISCLAIMER.md) · [第三方声明](THIRD_PARTY_NOTICES.md) · [安全问题](SECURITY.md)
 
 ## 如果安装中断
 
@@ -28,8 +30,8 @@
 - **部署成功但配对失败：** 确认网址属于刚安装的 Worker，检查其设置中是否存在 `INSTALL_CONFIG` 秘密。若首次输入有误，可从安装页复制同一份配置更新该秘密；更新已有后台前不要重新生成配置，以免失去旧任务的解密信息。
 - **更新这个后台：** 保留自己的 Worker 名称、数据库和 `INSTALL_CONFIG`。部署脚本不会生成、读取或删除这些秘密，也不会替换数据库。
 
-首次安装需要 Cloudflare/GitHub 账号、相应资源权限和可用额度；这些由平台页面确认。手机浏览器可完成上述网页流程，不代表所有手机与账号组合都已验收。此处不是 Pages 静态 ZIP 上传入口。
+首次安装需要 Cloudflare/GitHub 账号、相应资源权限和可用额度；请按平台页面提示操作，核对可能产生的费用。本模板用于部署个人后台，日常聊天请打开上方聊天网页。
 
-模板会先以 `DB` 绑定应用数据库迁移，再部署两个持久任务流程与每分钟检查任务；流程名称根据你的 Worker 名称生成，避免不同安装共用同一流程名。关闭应用中的后台功能后，定时检查不会因此自动删除。
+后台会创建数据库和任务资源。关闭应用中的后台功能后，云资源仍会保留；停用时请按[更新、迁移与停用](https://github.com/richzorya/mind-universe-release/blob/main/docs/FAQ.md#更新迁移与停用)处理，并核对平台账单。
 
 参考：[Cloudflare 部署按钮](https://developers.cloudflare.com/workers/platform/deploy-buttons/)、[数据库迁移](https://developers.cloudflare.com/d1/reference/migrations/)、[Wrangler 配置与秘密保留](https://developers.cloudflare.com/workers/wrangler/configuration/#source-of-truth)。

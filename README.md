@@ -4,6 +4,8 @@
 
 Mind Universe 是可以添加到手机主屏幕的网页应用。聊天记录主要留在你的设备上，AI 使用你自己的密钥，个人后台运行在你自己的 Cloudflare 账号中。
 
+**本产品仅供个人学习和技术交流使用。禁止未经作者事先明确书面授权的任何商业化或盈利行为，包括售卖产品链接、收费代部署个人后台、付费托管及其他变相收费。** 使用前请阅读[学习交流使用条款](LICENSE.txt)与[免责声明](DISCLAIMER.md)。
+
 [打开聊天网页](https://mu-beta.pages.dev/) · [Netlify 聊天网页](https://mu-beta.netlify.app/) · [开始安装](docs/INSTALL.md) · [常见问题](docs/FAQ.md)
 
 **已经部署过？** [找回后台地址](docs/INSTALL.md#找回后台地址) · [找回配对码](docs/INSTALL.md#找回配对码) · [打开 Cloudflare 项目列表](https://dash.cloudflare.com/?to=/:account/workers-and-pages)
@@ -28,28 +30,32 @@ Mind Universe 是可以添加到手机主屏幕的网页应用。聊天记录主
 
 不必。可以使用上面的统一网页，只部署自己的后台；使用统一 Netlify 网页也不需要注册 Netlify。
 
-当前先使用上面的内测网页；网页 ZIP 尚未开放下载，正在核对其中字体和图片的分发许可。后台模板已作为独立的 `backend/` 目录提供，不受网页 ZIP 开放时间影响。
-
-后续开放网页下载时，文件用途如下：
-
-| 用途 | 文件 |
-| --- | --- |
-| 自行上传到 Cloudflare Pages | `mind-universe-cloudflare-pages.zip` |
-| 自行上传到 Netlify | `mind-universe-netlify-static.zip` |
-| 保留后台成品、手动部署或维护 | `mind-universe-cloudflare-backend.zip` |
-
-网页包开放后任选其一，上传方法见[可选：自己部署网页](docs/INSTALL.md#可选自己部署网页)。GitHub 自动生成的 **Source code (zip)** 是发行仓库快照，不是直接上传即可运行的网页安装包。
+当前提供内测网页和个人后台安装模板，网页 ZIP 暂未开放下载。安装后台请使用[安装教程](docs/INSTALL.md)；[Release](https://github.com/richzorya/mind-universe-release/releases) 中的 `mind-universe-cloudflare-backend.zip` 用于手动部署或维护本人使用的后台。GitHub 自动生成的 **Source code (zip)** 是本发行仓库的文件快照，安装请按教程操作。
 
 ## 使用前
 
-当前是内测版，手机完整安装、平台授权和设备体验的验证范围见[更新记录](CHANGELOG.md#使用限制)。云平台、域名、模型和语音可能收费；网页与后台在你所在网络中的可达性需要分别确认。
+当前是内测版，请先用测试资料体验，功能与使用条件见[更新记录](CHANGELOG.md#使用说明)。云平台、域名、模型和语音可能收费；网页与后台在你所在网络中的可达性需要分别确认。
 
 从旧网址迁移时，先在旧网页导出备份，再到新网页导入；不同网址、浏览器与设备不会自动共享聊天或密钥。
 
-## 许可与帮助
+## 使用范围
 
-这是公开的成品发行仓库，完整工程源码仍为私有。压缩后的 JavaScript 可以被查看和分析，不等于不可逆向。个人非商业使用及其他约定见[使用许可](LICENSE.txt)，第三方内容按[各自许可](THIRD_PARTY_NOTICES.md)使用。
+本仓库提供 Mind Universe 成品、个人后台安装模板与使用文档，完整工程源码由作者私有维护。仅开放本人学习和技术交流所需的安装、部署与体验，未授予开源、商业使用、再分发或再许可权利。
 
-遇到问题可[提交 Issue](https://github.com/richzorya/mind-universe-release/issues/new/choose)，请勿附上秘密或私人聊天；安全问题请看[安全说明](SECURITY.md)。
+- 可以免费分享官方网页、仓库和教程链接，交流使用体验。
+- 禁止售卖产品链接、下载地址、配对码或使用资格，以及将其放入付费群、付费资料或其他收费服务。
+- 禁止通过帮助他人安装、部署、配置、维护或托管个人后台牟利。
+- 禁止利用本产品从事订阅、广告、商业引流、捆绑销售或其他直接、间接盈利与商业化活动。
+- 未经作者事先明确书面授权，禁止利用产品链接、下载文件、接口或相关资源，对专有程序进行逆向工程、反编译、源码还原或代码提取，禁止传播或另行使用由此取得的专有代码。
 
-Star 和 Fork 都是自愿的，不影响使用。Cloudflare 官方按钮会在你的账号中复制安装仓库，不应把这一步理解为必定产生 GitHub 的原生 Fork。
+以上约定及适用范围详见[学习交流使用条款](LICENSE.txt)。第三方组件、字体及素材按[各自许可](THIRD_PARTY_NOTICES.md)使用。
+
+## 联系作者
+
+任何商业化、授权或超出学习交流范围的使用，均须先与作者本人沟通，取得针对具体用途的明确书面授权后方可开展。
+
+作者：[richzorya](https://github.com/richzorya)。请使用作者主页公开的联系方式；如无合适的私密渠道，可在仓库[提交“授权联系”请求](https://github.com/richzorya/mind-universe-release/issues/new?template=contact_request.md)，仅说明拟议用途，等作者提供联系方式后再沟通详情。请勿在公开页面留下个人资料或商业秘密。
+
+## 问题反馈
+
+功能问题与建议可[提交 Issue](https://github.com/richzorya/mind-universe-release/issues/new/choose)，请提供版本、设备和发生问题的步骤，并删除密钥及私人聊天。涉及安全或隐私的问题，请按[安全说明](SECURITY.md)私密联系。

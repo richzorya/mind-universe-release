@@ -1,6 +1,5 @@
 {
   "formatVersion": 1,
-  "status": "review-required",
   "packages": [
     {
       "scope": "frontend",
@@ -8,7 +7,6 @@
       "version": "7.29.7",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-_babel_runtime-7.29.7-b0d8c4c3/LICENSE.txt"
       ]
@@ -19,7 +17,6 @@
       "version": "1.8.0",
       "license": "MIT",
       "direct": true,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-_base-ui_react-1.8.0-41c28eb6/LICENSE.txt"
       ]
@@ -30,7 +27,6 @@
       "version": "0.4.0",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-_base-ui_utils-0.4.0-9f5284f7/LICENSE.txt"
       ]
@@ -41,7 +37,6 @@
       "version": "3.1.1",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-_dnd-kit_accessibility-3.1.1-9544f07c/LICENSE.txt"
       ]
@@ -52,7 +47,6 @@
       "version": "6.3.1",
       "license": "MIT",
       "direct": true,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-_dnd-kit_core-6.3.1-b9a198e5/LICENSE.txt"
       ]
@@ -63,7 +57,6 @@
       "version": "3.2.2",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-_dnd-kit_utilities-3.2.2-afb08883/LICENSE.txt"
       ]
@@ -74,7 +67,6 @@
       "version": "1.8.0",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-_floating-ui_core-1.8.0-46ec3484/LICENSE.txt"
       ]
@@ -85,7 +77,6 @@
       "version": "1.8.0",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-_floating-ui_dom-1.8.0-f505c358/LICENSE.txt"
       ]
@@ -96,7 +87,6 @@
       "version": "2.1.9",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-_floating-ui_react-dom-2.1.9-1a54005a/LICENSE.txt"
       ]
@@ -107,7 +97,6 @@
       "version": "0.2.12",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-_floating-ui_utils-0.2.12-09bd0df8/LICENSE.txt"
       ]
@@ -118,7 +107,6 @@
       "version": "0.2.0",
       "license": "MIT",
       "direct": true,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-_phone-assistant_core-0.2.0-30b5c1e1/LICENSE.txt"
       ]
@@ -129,7 +117,6 @@
       "version": "0.2.0",
       "license": "MIT",
       "direct": true,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-_phone-assistant_react-0.2.0-a8aab000/LICENSE.txt"
       ]
@@ -140,7 +127,6 @@
       "version": "3.14.10",
       "license": "MIT",
       "direct": true,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-_tanstack_react-virtual-3.14.10-448f5f73/LICENSE.txt"
       ]
@@ -151,7 +137,6 @@
       "version": "3.17.8",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-_tanstack_virtual-core-3.17.8-c2babfc4/LICENSE.txt"
       ]
@@ -162,7 +147,6 @@
       "version": "3.1.3",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-_types_d3-color-3.1.3-602110a4/LICENSE.txt"
       ]
@@ -173,7 +157,6 @@
       "version": "3.0.7",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-_types_d3-drag-3.0.7-5a00b494/LICENSE.txt"
       ]
@@ -184,7 +167,6 @@
       "version": "3.0.4",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-_types_d3-interpolate-3.0.4-09828c55/LICENSE.txt"
       ]
@@ -195,7 +177,6 @@
       "version": "3.0.11",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-_types_d3-selection-3.0.11-3d4d0333/LICENSE.txt"
       ]
@@ -206,7 +187,6 @@
       "version": "3.0.9",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-_types_d3-transition-3.0.9-f0fae1c0/LICENSE.txt"
       ]
@@ -217,7 +197,6 @@
       "version": "3.0.8",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-_types_d3-zoom-3.0.8-f958472a/LICENSE.txt"
       ]
@@ -228,7 +207,6 @@
       "version": "19.2.18",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-_types_react-19.2.18-2300dff8/LICENSE.txt"
       ]
@@ -239,7 +217,6 @@
       "version": "19.2.7",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-_types_react-dom-19.2.7-278d2b69/LICENSE.txt"
       ]
@@ -250,7 +227,6 @@
       "version": "2.0.7",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-_types_trusted-types-2.0.7-06921622/LICENSE.txt"
       ]
@@ -261,7 +237,6 @@
       "version": "12.11.6",
       "license": "MIT",
       "direct": true,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-_xyflow_react-12.11.6-b782546b/LICENSE.txt"
       ]
@@ -272,7 +247,6 @@
       "version": "4.5.7",
       "license": "MIT",
       "direct": true,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-zustand-4.5.7-d7456b91/LICENSE.txt"
       ]
@@ -283,7 +257,6 @@
       "version": "0.0.82",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-_xyflow_system-0.0.82-ad1d4b3f/LICENSE.txt"
       ]
@@ -294,7 +267,6 @@
       "version": "2.13.1",
       "license": "BSD-3-Clause",
       "direct": true,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-_zip.js_zip.js-2.13.1-1eb33d31/LICENSE.txt"
       ]
@@ -305,7 +277,6 @@
       "version": "5.0.5",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-classcat-5.0.5-05b2433b/LICENSE.md.txt"
       ]
@@ -316,7 +287,6 @@
       "version": "2.1.1",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-clsx-2.1.1-d66d2554/license.txt"
       ]
@@ -327,7 +297,6 @@
       "version": "3.2.3",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-csstype-3.2.3-8c4a8a76/LICENSE.txt"
       ]
@@ -338,7 +307,6 @@
       "version": "3.1.0",
       "license": "ISC",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-d3-color-3.1.0-e73223f6/LICENSE.txt"
       ]
@@ -349,7 +317,6 @@
       "version": "3.0.1",
       "license": "ISC",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-d3-dispatch-3.0.1-72073cac/LICENSE.txt"
       ]
@@ -360,7 +327,6 @@
       "version": "3.0.0",
       "license": "ISC",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-d3-drag-3.0.0-37f15f8c/LICENSE.txt"
       ]
@@ -371,7 +337,6 @@
       "version": "3.0.1",
       "license": "BSD-3-Clause",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-d3-ease-3.0.1-779dc8df/LICENSE.txt"
       ]
@@ -382,7 +347,6 @@
       "version": "3.0.1",
       "license": "ISC",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-d3-interpolate-3.0.1-ede6e5e3/LICENSE.txt"
       ]
@@ -393,7 +357,6 @@
       "version": "3.0.0",
       "license": "ISC",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-d3-selection-3.0.0-27cba0f3/LICENSE.txt"
       ]
@@ -404,7 +367,6 @@
       "version": "3.0.1",
       "license": "ISC",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-d3-timer-3.0.1-5d08ea60/LICENSE.txt"
       ]
@@ -415,7 +377,6 @@
       "version": "3.0.1",
       "license": "ISC",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-d3-transition-3.0.1-28fc16c8/LICENSE.txt"
       ]
@@ -426,7 +387,6 @@
       "version": "3.0.0",
       "license": "ISC",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-d3-zoom-3.0.0-f74484d4/LICENSE.txt"
       ]
@@ -437,7 +397,6 @@
       "version": "3.4.15",
       "license": "(MPL-2.0 OR Apache-2.0)",
       "direct": true,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-dompurify-3.4.15-b6315023/LICENSE.txt",
         "licenses/npm/frontend-dompurify-3.4.15-b6315023/LICENSE-MPL.txt"
@@ -449,7 +408,6 @@
       "version": "4.0.3",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-fast-equals-4.0.3-b508e983/LICENSE.txt"
       ]
@@ -460,7 +418,6 @@
       "version": "0.8.3",
       "license": "MIT",
       "direct": true,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-fflate-0.8.3-848106b3/LICENSE.txt"
       ]
@@ -471,7 +428,6 @@
       "version": "13.2.0",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-framer-motion-13.2.0-bfed0a99/LICENSE.md.txt"
       ]
@@ -482,7 +438,6 @@
       "version": "7.5.0",
       "license": "Apache-2.0",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-fuse.js-7.5.0-21891bd8/LICENSE.txt"
       ]
@@ -493,7 +448,6 @@
       "version": "4.0.0",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-js-tokens-4.0.0-0fe19584/LICENSE.txt"
       ]
@@ -504,7 +458,6 @@
       "version": "3.15.0",
       "license": "ISC",
       "direct": true,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-jsonrepair-3.15.0-05710f37/LICENSE.md.txt"
       ]
@@ -515,7 +468,6 @@
       "version": "1.4.0",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-loose-envify-1.4.0-f423fcb1/LICENSE.txt"
       ]
@@ -526,7 +478,6 @@
       "version": "18.0.12",
       "license": "MIT",
       "direct": true,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-marked-18.0.12-f9600e51/LICENSE.txt"
       ]
@@ -537,7 +488,6 @@
       "version": "13.2.0",
       "license": "MIT",
       "direct": true,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-motion-13.2.0-d3202696/LICENSE.md.txt"
       ]
@@ -548,7 +498,6 @@
       "version": "13.2.0",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-motion-dom-13.2.0-0875825d/LICENSE.md.txt"
       ]
@@ -559,7 +508,6 @@
       "version": "13.0.0",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-motion-utils-13.0.0-59e75540/LICENSE.md.txt"
       ]
@@ -570,7 +518,6 @@
       "version": "1.0.1",
       "license": "BSD-3-Clause",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-normalize-wheel-1.0.1-7d146e1a/LICENSE.txt"
       ]
@@ -581,7 +528,6 @@
       "version": "4.1.1",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-object-assign-4.1.1-c145d125/license.txt"
       ]
@@ -592,7 +538,6 @@
       "version": "3.29.3",
       "license": "MIT",
       "direct": true,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-pinyin-pro-3.29.3-a240b66e/LICENSE.txt"
       ]
@@ -603,7 +548,6 @@
       "version": "15.8.1",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-prop-types-15.8.1-38336846/LICENSE.txt"
       ]
@@ -614,7 +558,6 @@
       "version": "19.2.8",
       "license": "MIT",
       "direct": true,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-react-19.2.8-c32755ef/LICENSE.txt"
       ]
@@ -625,7 +568,6 @@
       "version": "19.2.8",
       "license": "MIT",
       "direct": true,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-react-dom-19.2.8-d5a4b102/LICENSE.txt"
       ]
@@ -636,7 +578,6 @@
       "version": "4.7.1",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-react-draggable-4.7.1-4692fe6b/LICENSE.txt"
       ]
@@ -647,7 +588,6 @@
       "version": "6.2.3",
       "license": "MIT",
       "direct": true,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-react-easy-crop-6.2.3-bdb9cd3b/LICENSE.txt"
       ]
@@ -658,7 +598,6 @@
       "version": "2.2.4",
       "license": "MIT",
       "direct": true,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-react-grid-layout-2.2.4-b6e1d75c/LICENSE.txt"
       ]
@@ -669,7 +608,6 @@
       "version": "5.7.0",
       "license": "MIT",
       "direct": true,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-react-icons-5.7.0-22e3a8b3/LICENSE.txt"
       ]
@@ -680,7 +618,6 @@
       "version": "16.13.1",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-react-is-16.13.1-083c4f82/LICENSE.txt"
       ]
@@ -691,7 +628,6 @@
       "version": "3.2.0",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-react-resizable-3.2.0-afaebb2f/LICENSE.txt"
       ]
@@ -702,7 +638,6 @@
       "version": "5.3.0",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-reselect-5.3.0-f833ca61/LICENSE.txt"
       ]
@@ -713,7 +648,6 @@
       "version": "1.5.1",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-resize-observer-polyfill-1.5.1-3d6ec5c7/LICENSE.txt"
       ]
@@ -724,7 +658,6 @@
       "version": "0.27.0",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-scheduler-0.27.0-7bf6cc1c/LICENSE.txt"
       ]
@@ -735,7 +668,6 @@
       "version": "0.185.1",
       "license": "MIT",
       "direct": true,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-three-0.185.1-083d00ad/LICENSE.txt"
       ]
@@ -746,7 +678,6 @@
       "version": "2.8.1",
       "license": "0BSD",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-tslib-2.8.1-7e89d502/LICENSE.txt.txt"
       ]
@@ -757,7 +688,6 @@
       "version": "1.6.0",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-use-sync-external-store-1.6.0-6ea4d325/LICENSE.txt"
       ]
@@ -768,7 +698,6 @@
       "version": "1.1.1",
       "license": "MIT",
       "direct": true,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-weather-animations-1.1.1-62dc94a2/LICENSE.txt"
       ]
@@ -779,7 +708,6 @@
       "version": "4.5.4",
       "license": "MIT",
       "direct": true,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-zod-4.5.4-1a876f59/LICENSE.txt"
       ]
@@ -790,7 +718,6 @@
       "version": "5.0.15",
       "license": "MIT",
       "direct": true,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/frontend-zustand-5.0.15-d9bbf2dc/LICENSE.txt"
       ]
@@ -801,7 +728,6 @@
       "version": "2.0.0",
       "license": "MIT",
       "direct": true,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/backend-_block65_webcrypto-web-push-2.0.0-972a1864/LICENSE.md.txt"
       ]
@@ -812,7 +738,6 @@
       "version": "3.15.0",
       "license": "ISC",
       "direct": true,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/backend-jsonrepair-3.15.0-05710f37/LICENSE.md.txt"
       ]
@@ -823,7 +748,6 @@
       "version": "1.5.0",
       "license": "MIT",
       "direct": false,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/backend-uint8array-extras-1.5.0-e826c0e1/license.txt"
       ]
@@ -834,7 +758,6 @@
       "version": "4.5.4",
       "license": "MIT",
       "direct": true,
-      "inclusion": "production-dependency-candidate",
       "notices": [
         "licenses/npm/backend-zod-4.5.4-1a876f59/LICENSE.txt"
       ]
@@ -843,8 +766,7 @@
   "vendor": [
     {
       "component": "foliate-js",
-      "notice": "licenses/vendor/src_vendor-foliate-js_LICENSE.txt",
-      "inclusion": "vendored-candidate-needs-bundle-review"
+      "notice": "licenses/vendor/src_vendor-foliate-js_LICENSE.txt"
     }
   ],
   "fonts": {
@@ -1378,45 +1300,5 @@
     ]
   },
   "backendPackageNoticesIncluded": true,
-  "backendLegalCommentsIncluded": false,
-  "publicReleaseGates": [
-    {
-      "code": "PUBLICATION_REVIEW_REQUIRED",
-      "message": "仅生成 Beta 候选；公开前仍需维护者核实权属、安装验收、实际地址与授权。"
-    },
-    {
-      "code": "BUNDLE_MEMBERSHIP_REVIEW",
-      "message": "生产依赖集合不等于实际进入 bundle 的模块清单；需核对打包模块及图标子集，不能仅凭 package.json 宣称许可已清。"
-    },
-    {
-      "code": "LICENSE_TEXT_REVIEW",
-      "package": "dompurify",
-      "scope": "frontend",
-      "message": "许可文本提到 copyleft 或共享相同方式；需核对实际包含内容、范围与义务，不能推定整个包都采用该许可。"
-    },
-    {
-      "code": "COPYLEFT_OR_RESTRICTED_LICENSE",
-      "package": "dompurify",
-      "scope": "frontend",
-      "license": "(MPL-2.0 OR Apache-2.0)",
-      "message": "公开前核验许可兼容性与履约方式；未自动认定可闭源分发。"
-    },
-    {
-      "code": "LICENSE_TEXT_REVIEW",
-      "package": "react-icons",
-      "scope": "frontend",
-      "message": "许可文本提到 copyleft 或共享相同方式；需核对实际包含内容、范围与义务，不能推定整个包都采用该许可。"
-    },
-    {
-      "code": "FONT_DERIVATION_REVIEW",
-      "message": "已列出实际字体文件和随包许可，但字体逐一归属、修改及保留名称义务仍需人工核验。",
-      "files": 399,
-      "notices": 13
-    },
-    {
-      "code": "ASSET_RIGHTS_REVIEW",
-      "message": "已列出实际图片、图标和媒体；源码注释或生成记录不自动等于完整分发授权。需核实来源、肖像、商标及其他权利。",
-      "files": 108
-    }
-  ]
+  "backendLegalCommentsIncluded": false
 }
