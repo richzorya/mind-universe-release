@@ -4,19 +4,25 @@
 
 Mind Universe 是可以添加到手机主屏幕的网页应用。聊天记录主要留在你的设备上，AI 使用你自己的密钥，个人后台运行在你自己的 Cloudflare 账号中。
 
-[开始安装](docs/INSTALL.md) · [打开网页](https://mu-beta.pages.dev/) · [Netlify 备用网页](https://mu-beta.netlify.app/) · [下载安装包](https://github.com/richzorya/mind-universe-release/releases) · [常见问题](docs/FAQ.md)
+[打开聊天网页](https://mu-beta.pages.dev/) · [Netlify 聊天网页](https://mu-beta.netlify.app/) · [开始安装](docs/INSTALL.md) · [常见问题](docs/FAQ.md)
+
+**已经部署过？** [找回后台地址](docs/INSTALL.md#找回后台地址) · [找回配对码](docs/INSTALL.md#找回配对码) · [打开 Cloudflare 项目列表](https://dash.cloudflare.com/?to=/:account/workers-and-pages)
+
+日常聊天用上面的网页；自己部署的**个人后台**负责连接 AI、执行后台任务，不是另一个聊天网页。**后台地址**是它的网址，**配对码**是允许你的设备连接它的口令。下面会分别说明去哪里复制，二者不在同一个页面里。
 
 ## 怎么开始？
 
-**用手机或电脑的浏览器完成安装，不需要编写代码或复制终端命令。** 请先准备自己的 GitHub、Cloudflare 账号和模型 API Key。
+**用手机或电脑的浏览器操作，不需要编写代码或复制终端命令。** 请先准备自己的 GitHub、Cloudflare 账号；模型 API Key 是你向 AI 服务商申请的调用密钥，已有设置可继续用。
 
 1. 打开[安装准备页](https://mu-beta.pages.dev/install.html)；打不开时使用 [Netlify 准备页](https://mu-beta.netlify.app/install.html)。
-2. 选择要使用的网页，在本机生成安装配置，保存 `MU-installation` JSON 文件，再复制 `INSTALL_CONFIG`。
-3. 点击准备页中的 Cloudflare 官方部署按钮，登录并确认授权，只选择安装仓库，把配置粘贴到 `INSTALL_CONFIG` Secret 后部署。
-4. 复制 Cloudflare 给出的后台地址，回到应用的“设置 → 个人后台”，填写地址和保存的配对码，连接并检查。
-5. 在原“API Keys”和模型设置中配置自己的服务，发一条测试消息，再添加到手机主屏幕。
+2. 点“生成安装资料”→“保存安装备份”，保存 `MU-installation-….json` 文件。这是找回安装资料的备份，不是聊天备份，也不是要上传的安装包。确认保存后点“我已保存，下一步”。
+3. 点“复制安装配置”。复制的是以 `MUINSTALL1.` 开头的整段文字，供 Cloudflare 配置后台使用；点“打开 Cloudflare 安装”，登录并授权安装仓库，将这段文字粘贴到名为 `INSTALL_CONFIG` 的 Secret（秘密）字段后部署。[完整操作](docs/INSTALL.md#第二步安装到-cloudflare)
+4. 从 Cloudflare 的原项目“Settings（设置）→ Domains & Routes（域名和路由）”复制 `workers.dev` 访问地址。这是**后台地址**；打开聊天网页的“设置 → 个人后台 → 连接已有后台”，先将它粘贴到“后台地址”，不要复制管理页面链接。[找地址的步骤](docs/INSTALL.md#找回后台地址)
+5. 回到原安装准备页，点“3. 回到网页配对”→“复制配对码”。这是**连接口令**，不是刚才那整段安装配置；Cloudflare 不会另给你一个配对码。[页面关了怎么找回](docs/INSTALL.md#找回配对码)
+6. 切回刚才的连接表单，将口令粘贴到“配对码”，点“连接并保存”再“检查连接”。两次复制之间先粘贴好前一项，避免剪贴板内容被覆盖。
+7. 原来的 API 密钥和模型设置继续使用；首次使用且尚未配置的人，再到“API Keys”和模型设置中填写。发一条测试消息，确认正常后添加到手机主屏幕。
 
-安装配置和配对码由 **Mind Universe 在你的设备上生成**，不是 Cloudflare 生成，也不是账号密码。保存的文件含有秘密，请勿上传到 GitHub、Issue 或聊天。完整步骤和失败处理见[安装教程](docs/INSTALL.md)。
+安装配置和配对码由 **Mind Universe 在你的设备上生成**，不是账号密码。不要把文件或秘密上传到 GitHub、Issue 或聊天。每项内容的含义、复制位置和粘贴位置见[安装教程对照表](docs/INSTALL.md#先认清要用的内容)。
 
 ## 需要自己部署网页吗？
 

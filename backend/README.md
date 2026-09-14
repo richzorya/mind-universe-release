@@ -2,10 +2,18 @@
 
 这是已编译的 Mind Universe 后台成品，不需要下载原工程或在手机上运行命令。
 
-1. 用准备使用 Mind Universe 的浏览器打开[安装页](https://mu-beta.pages.dev/install.html)，生成并保留安装配置。
-2. 点击下面的 Cloudflare 按钮，登录自己的 Cloudflare 和 GitHub 账号，按页面提示授权创建成品仓库副本。
-3. 使用一个未被自己其他应用占用的 Worker 名称，接受新建数据库；在 `INSTALL_CONFIG` 秘密输入框粘贴刚复制的完整配置。保持默认部署命令 `npm run deploy`。
-4. 等 Cloudflare 显示部署成功，复制这个 Worker 的 `https://…workers.dev` 网址，回到应用的“设置 → 个人后台”，填写后台网址和已保存的配对码，完成连接与检查。
+[完整安装教程](https://github.com/richzorya/mind-universe-release/blob/main/docs/INSTALL.md) · [找回后台地址](https://github.com/richzorya/mind-universe-release/blob/main/docs/INSTALL.md#找回后台地址) · [找回配对码](https://github.com/richzorya/mind-universe-release/blob/main/docs/INSTALL.md#找回配对码) · [Cloudflare 项目列表](https://dash.cloudflare.com/?to=/:account/workers-and-pages)
+
+安装时要用三样内容：**安装配置**是给 Cloudflare 保存的整套秘密；**后台地址**是部署出来的访问网址；**配对码**是允许设备连接后台的口令。它们不能混填，Cloudflare 不会另发配对码。
+
+1. 打开[安装准备页](https://mu-beta.pages.dev/install.html)；首次安装点“生成安装资料”→“保存安装备份”，保存 `MU-installation-….json` 文件，确认下载完成后点“我已保存，下一步”。已有安装应选择“恢复已有安装备份”，不要重新生成。
+2. 点“复制安装配置”，复制以 `MUINSTALL1.` 开头的整段文字。这是 **INSTALL_CONFIG 的值**，不是配对码；保留原准备页。
+3. 点“打开 Cloudflare 安装”或下方按钮，登录自己的 Cloudflare 和 GitHub，按提示授权安装仓库。记住创建的 Worker（后台项目）名称，保持默认部署命令 `npm run deploy`。
+4. 在 `INSTALL_CONFIG` Secret（秘密）字段中粘贴第 2 项的整段文字，按提示确认资源并部署。没有输入框时按[补填安装配置的步骤](https://github.com/richzorya/mind-universe-release/blob/main/docs/INSTALL.md#没有出现-install_config-输入框)操作，不要把秘密提交到仓库。
+5. 部署成功后，进入原 Worker 的“Settings（设置）→ Domains & Routes（域名和路由）”，复制 `workers.dev` 的 HTTPS 访问网址。它是**后台地址**，不是浏览器地址栏里的 Cloudflare 管理页面链接。
+6. 打开[聊天网页](https://mu-beta.pages.dev/)，“设置 → 个人后台 → 连接已有后台”，先将网址粘贴到“后台地址”。再切回原准备页，点“3. 回到网页配对”→“复制配对码”，返回表单粘贴到“配对码”，点“连接并保存”再“检查连接”。
+
+准备页关闭后，可用“恢复已有安装备份”选择原文件，再进入第 3 步复制配对码；文件不包含后台网址，网址要从 Cloudflare 项目找回。原 API 密钥与模型设置继续使用，不需要因配对重新填写。
 
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https%3A%2F%2Fgithub.com%2Frichzorya%2Fmind-universe-release%2Ftree%2Fmain%2Fbackend)
 
