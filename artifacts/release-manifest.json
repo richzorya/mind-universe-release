@@ -3,25 +3,25 @@
   "kind": "mu-personal-release",
   "status": "private-candidate",
   "publicReady": false,
-  "createdAt": "2026-09-14T12:38:44.791Z",
+  "createdAt": "2026-09-14T13:15:44.147Z",
   "frontendBuildSerial": 209,
   "backendVersion": "0.1.0",
   "backendProtocolVersion": 1,
   "artifacts": [
     {
       "path": "mind-universe-cloudflare-backend.zip",
-      "bytes": 293202,
-      "sha256": "6c34da3c812fbdf355edbaf392e9039ab39bffdf78a8a505ad0ab991bc76e086"
+      "bytes": 291124,
+      "sha256": "a4309d1b858a19a7c97cec1a6aa7bdf1d7b42566369bebce13876fd3e0f62963"
     },
     {
       "path": "mind-universe-cloudflare-pages.zip",
-      "bytes": 116101001,
-      "sha256": "45f0b22773c208463530d223b771ed56be96ab6231bac83f3b665e6e07c401a9"
+      "bytes": 116101821,
+      "sha256": "2d74adad1fdc68995355c2b8df5b971d2dd04b6f1bb334ac4c941dc3f8cadb60"
     },
     {
       "path": "mind-universe-netlify-static.zip",
-      "bytes": 116101001,
-      "sha256": "45f0b22773c208463530d223b771ed56be96ab6231bac83f3b665e6e07c401a9"
+      "bytes": 116101821,
+      "sha256": "2d74adad1fdc68995355c2b8df5b971d2dd04b6f1bb334ac4c941dc3f8cadb60"
     }
   ],
   "contents": {
@@ -4353,8 +4353,8 @@
       },
       {
         "path": "THIRD_PARTY_NOTICES.md",
-        "bytes": 5630,
-        "sha256": "cb52ef6bc42238fe93261e4f72779c67ce49146b91ae6dd22836579cad0aab3e"
+        "bytes": 10745,
+        "sha256": "fd35826e5a6e66e9f6bd41de209c4e02ed5fff4f5048095a4b0c84ba286e4a77"
       },
       {
         "path": "third-party-inventory.json",
@@ -8690,8 +8690,8 @@
       },
       {
         "path": "THIRD_PARTY_NOTICES.md",
-        "bytes": 5630,
-        "sha256": "cb52ef6bc42238fe93261e4f72779c67ce49146b91ae6dd22836579cad0aab3e"
+        "bytes": 10745,
+        "sha256": "fd35826e5a6e66e9f6bd41de209c4e02ed5fff4f5048095a4b0c84ba286e4a77"
       },
       {
         "path": "third-party-inventory.json",
@@ -8702,8 +8702,8 @@
     "mind-universe-cloudflare-backend.zip": [
       {
         "path": "artifact-manifest.json",
-        "bytes": 20586,
-        "sha256": "7c33423a210c7fd86b31a6e27f3cfb33168581ff818ee889fceb0a262d82ec38"
+        "bytes": 20587,
+        "sha256": "7096d201300136c0fae87992b23032230a17b81d2e69eb7850a37d1b75963351"
       },
       {
         "path": "check-package.mjs",
@@ -8712,8 +8712,8 @@
       },
       {
         "path": "DEPLOY.md",
-        "bytes": 8028,
-        "sha256": "da9d5f2834100c13926f7f68e5ead9a4e417397d0ad9f8b239895cbf404ea7dc"
+        "bytes": 2355,
+        "sha256": "684f04519f9a64f7a36a4e8e511675a217f38dd299226366417c04d3c66ebe71"
       },
       {
         "path": "install.mjs",
@@ -9222,8 +9222,8 @@
       },
       {
         "path": "THIRD_PARTY_NOTICES.md",
-        "bytes": 5630,
-        "sha256": "cb52ef6bc42238fe93261e4f72779c67ce49146b91ae6dd22836579cad0aab3e"
+        "bytes": 10745,
+        "sha256": "fd35826e5a6e66e9f6bd41de209c4e02ed5fff4f5048095a4b0c84ba286e4a77"
       },
       {
         "path": "THIRD_PARTY_NOTICES.txt",
@@ -13106,8 +13106,8 @@
         "sha256": "a3444b4ac538efdedd0f981ccfdae1275317cf85b76e7006645b3ca88f1f6ea1"
       }
     ],
-    "backendMarkerSha256": "150b671ed24562ed23c02f4bffc8051244f67407a20ab30be98cd0b4e09a9713",
-    "backendPackagedMarkerSha256": "7c33423a210c7fd86b31a6e27f3cfb33168581ff818ee889fceb0a262d82ec38",
+    "backendMarkerSha256": "3c1ba1e673cb2ed05ea785480fae46250e0ce9f7fbafbf3f13112f6b40686369",
+    "backendPackagedMarkerSha256": "7096d201300136c0fae87992b23032230a17b81d2e69eb7850a37d1b75963351",
     "interpretation": "未签名构建自声明与字节完整性证据；后台原始与附加许可附件后的 manifest 分别记录，不是不可伪造签名，不替代个人模式运行时和实际安装验收。"
   },
   "discardedFrontendFiles": [
