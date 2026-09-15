@@ -6,12 +6,12 @@
   "runtime": "runtime.js",
   "configuration": "wrangler.jsonc",
   "migrations": "migrations",
-  "backendMarkerSha256": "410ca2c0cc1018971533913a1f116626c05db901e4719237cc71db649461a5fc",
+  "backendMarkerSha256": "0bb74440819b21083bcd3f3a2a84110bb10622d4b530b34c95f46abf51626175",
   "assets": [
     {
       "path": ".dev.vars.example",
-      "bytes": 195,
-      "sha256": "21c1733d2a7da959592f8a57d2ae440d286e9fb89f55b28032260a183ba0327f"
+      "bytes": 343,
+      "sha256": "c59af26c58cc632163314dc55b1bd09ed7b8ce4c0cb935d0d47a173753e320f5"
     },
     {
       "path": ".gitignore",
@@ -20,8 +20,8 @@
     },
     {
       "path": "deploy.mjs",
-      "bytes": 7544,
-      "sha256": "9b8bf9ccd24965e9a07a3ab4a1077ecd4b6f7b72494aa345ff376646ebd8530d"
+      "bytes": 12960,
+      "sha256": "81bd3a8a0922424de1d7d992fe04368ecd56e3e285d8631d372d8e3f320c71da"
     },
     {
       "path": "DISCLAIMER.md",
@@ -80,18 +80,18 @@
     },
     {
       "path": "package.json",
-      "bytes": 861,
-      "sha256": "bef442762d7ceb4641a051c529a7bbcc0136026d70712367917e12754b354132"
+      "bytes": 351,
+      "sha256": "05dba152a8ae533eec4dbcee50c86201801e7847a410ab5ea91196bbd091f354"
     },
     {
       "path": "README.md",
-      "bytes": 5722,
-      "sha256": "ba37659cc9c9efd74fafddf7e56115eba16a1eaf2ebd9b99b38d955a309d378f"
+      "bytes": 6015,
+      "sha256": "11726b14e7061686cdd6226be78b6070e842d51164755b522022c64c315986d9"
     },
     {
       "path": "runtime.js",
-      "bytes": 670857,
-      "sha256": "9bda2cfa9109bcbc9fc2d7e012b3d9b034ccf0fa6f0babb6e6864672ef74cb5b"
+      "bytes": 671413,
+      "sha256": "70d68a11ba319c0894b927d028567ec31dd8cdb17b57bf4fa80387a7a164426d"
     },
     {
       "path": "SECURITY.md",

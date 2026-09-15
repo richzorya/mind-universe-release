@@ -13,15 +13,5 @@
   },
   "devDependencies": {
     "wrangler": "4.129.0"
-  },
-  "cloudflare": {
-    "bindings": {
-      "INSTALL_CONFIG": {
-        "description": "先在 [Mind Universe 安装页](https://mu-beta.pages.dev/install.html) 生成并复制安装配置，再完整粘贴到这里。它包含私密配对与加密信息，请勿发到 GitHub 或聊天中；不要留空。"
-      },
-      "DB": {
-        "description": "保存这个个人后台的任务、配对与回复。请使用新建的数据库，不要选择其他应用正在使用的数据库。"
-      }
-    }
   }
 }
