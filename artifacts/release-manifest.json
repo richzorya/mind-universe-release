@@ -2,14 +2,14 @@
   "formatVersion": 1,
   "kind": "mu-personal-release",
   "status": "beta",
-  "frontendBuildSerial": 215,
+  "frontendBuildSerial": 216,
   "backendVersion": "0.1.0",
   "backendProtocolVersion": 1,
   "artifacts": [
     {
       "path": "mind-universe-cloudflare-backend.zip",
-      "bytes": 300759,
-      "sha256": "ba07ce5c37bbd5dc781630a45a7f274a2bf0e1f6423fee2daf36a477afa85ab5"
+      "bytes": 302191,
+      "sha256": "1af0d670cc9c01faa59008c2e759881321f01cf3214d1ee2f29d0b81d0c4a430"
     }
   ],
   "repositoryBackend": [
@@ -30,8 +30,8 @@
     },
     {
       "path": "deployment-manifest.json",
-      "bytes": 3623,
-      "sha256": "1a3047a364e18d2e549960fefe179e18f865480da55e956a15d886f33e8251ea"
+      "bytes": 3800,
+      "sha256": "e2cbc7043e1f91f2edcfd67f8635fd9423cb04cefb6e45ea756a7a36c434302c"
     },
     {
       "path": "DISCLAIMER.md",
@@ -84,6 +84,11 @@
       "sha256": "18180cf33e4146a8f5d6e7ace7c22afcf14e29efc4ec0261fc999a6fae3ddabd"
     },
     {
+      "path": "migrations/0009_autonomy_history_resets.sql",
+      "bytes": 358,
+      "sha256": "65c881eaae08999ffb3d40896aba27fa6e24a8eec2e7a20401359a37d82fcef6"
+    },
+    {
       "path": "package-lock.json",
       "bytes": 50395,
       "sha256": "79a68d850ac888803ae5136d33718719e3b17dd25b3e195b4916ce84e24dd88d"
@@ -100,8 +105,8 @@
     },
     {
       "path": "runtime.js",
-      "bytes": 671413,
-      "sha256": "70d68a11ba319c0894b927d028567ec31dd8cdb17b57bf4fa80387a7a164426d"
+      "bytes": 675419,
+      "sha256": "e61a1274ee0388c5881358e69065428f8604ffca395adcc6d24a2f948a4b2555"
     },
     {
       "path": "SECURITY.md",

@@ -6,7 +6,7 @@
   "runtime": "runtime.js",
   "configuration": "wrangler.jsonc",
   "migrations": "migrations",
-  "backendMarkerSha256": "0bb74440819b21083bcd3f3a2a84110bb10622d4b530b34c95f46abf51626175",
+  "backendMarkerSha256": "a6e0f97a8dd1a43e582a44340db5e28143195a7174e18ff4761876813bafaa8f",
   "assets": [
     {
       "path": ".dev.vars.example",
@@ -74,6 +74,11 @@
       "sha256": "18180cf33e4146a8f5d6e7ace7c22afcf14e29efc4ec0261fc999a6fae3ddabd"
     },
     {
+      "path": "migrations/0009_autonomy_history_resets.sql",
+      "bytes": 358,
+      "sha256": "65c881eaae08999ffb3d40896aba27fa6e24a8eec2e7a20401359a37d82fcef6"
+    },
+    {
       "path": "package-lock.json",
       "bytes": 50395,
       "sha256": "79a68d850ac888803ae5136d33718719e3b17dd25b3e195b4916ce84e24dd88d"
@@ -90,8 +95,8 @@
     },
     {
       "path": "runtime.js",
-      "bytes": 671413,
-      "sha256": "70d68a11ba319c0894b927d028567ec31dd8cdb17b57bf4fa80387a7a164426d"
+      "bytes": 675419,
+      "sha256": "e61a1274ee0388c5881358e69065428f8604ffca395adcc6d24a2f948a4b2555"
     },
     {
       "path": "SECURITY.md",
