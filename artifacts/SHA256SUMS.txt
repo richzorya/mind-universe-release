@@ -1,2 +1,2 @@
 5e82df9781e40f1abf68c37aa59b54237042b56013283104c264e96263baf5da  mind-universe-cloudflare-backend.zip
-01f51e431e4ae2ea205990575eb1f46c3729a4758fc4842d6561a2aa12f9c18f  release-manifest.json
+3966d906b5ad763e36883bc22b0aedb5a1d785af2fb0aba56d665d3d7ac900aa  release-manifest.json
