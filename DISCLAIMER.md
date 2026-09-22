@@ -18,7 +18,7 @@ AI 回复由使用者选择的服务商生成，可能出现不准确、不完�
 
 ## 数据与备份
 
-请妥善保管安装备份、配对码和 API 密钥，及时备份重要聊天及其他资料。清除网站数据、迁移、升级或删除云资源前，请确认备份可用。数据保存位置、请求接收方和删除方式见[隐私与数据说明](https://github.com/richzorya/mind-universe-release/blob/main/PRIVACY.md)。
+请妥善保管安装备份、配对码和 API 密钥，及时备份重要聊天及其他资料。清除网站数据、迁移、升级或删除云资源前，请确认备份可用。数据保存位置、请求接收方和删除方式见[隐私与数据说明](https://github.com/mind-universe-studio/mind-universe-release/blob/main/PRIVACY.md)。
 
 ## 责任范围
 
@@ -28,4 +28,4 @@ AI 回复由使用者选择的服务商生成，可能出现不准确、不完�
 
 ## 联系与反馈
 
-功能问题或建议可[提交 Issue](https://github.com/richzorya/mind-universe-release/issues/new/choose)。涉及商业化或授权，请先[联系作者](https://github.com/richzorya/mind-universe-release#联系作者)，取得针对具体用途的明确书面授权。涉及私人数据或安全问题，请按[安全说明](https://github.com/richzorya/mind-universe-release/blob/main/SECURITY.md)私密联系。
+功能问题或建议可[提交 Issue](https://github.com/mind-universe-studio/mind-universe-release/issues/new/choose)。涉及商业化或授权，请先[联系作者](https://github.com/mind-universe-studio/mind-universe-release#联系作者)，取得针对具体用途的明确书面授权。涉及私人数据或安全问题，请按[安全说明](https://github.com/mind-universe-studio/mind-universe-release/blob/main/SECURITY.md)私密联系。

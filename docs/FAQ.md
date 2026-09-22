@@ -36,7 +36,7 @@ Cloudflare 保存的 Secret 不支持查看原文，应用也不能从服务器�
 
 ## 为什么我的 Fork 数量没有增加？
 
-旧流程由 Cloudflare 复制模板到新账号，那是独立仓库，GitHub 不把它计为原仓库的 Fork。新的安装流程要求先点 [Fork 官方仓库](https://github.com/richzorya/mind-universe-release/fork)，在 GitHub 完成 **Create fork**，再把自己的仓库网址粘贴回准备页核验。只有保留官方来源关系的 Fork 才能通过，普通复制或导入的仓库不会因此转为 Fork。
+旧流程由 Cloudflare 复制模板到新账号，那是独立仓库，GitHub 不把它计为原仓库的 Fork。新的安装流程要求先点 [Fork 官方仓库](https://github.com/mind-universe-studio/mind-universe-release/fork)，在 GitHub 完成 **Create fork**，再把自己的仓库网址粘贴回准备页核验。只有保留官方来源关系的 Fork 才能通过，普通复制或导入的仓库不会因此转为 Fork。
 
 已有独立副本和已部署后台可以继续使用，不需要为了 Fork 数量重装或删除数据。更新办法见[怎样更新](#怎样更新)。
 
@@ -45,6 +45,8 @@ Cloudflare 保存的 Secret 不支持查看原文，应用也不能从服务器�
 需要把使用中的入口更新为新网址：自己的安装准备页重新粘贴新仓库地址并核验，自己发布的教程、快捷入口和 Git 远端也使用新地址。GitHub 通常会重定向旧仓库链接，但旧路径被重新使用后可能失效，不应长期依赖。[仓库改名说明](https://docs.github.com/en/repositories/creating-and-managing-repositories/renaming-a-repository) · [用户名改名说明](https://docs.github.com/en/account-and-profile/concepts/username-changes)
 
 仓库改名会保留 Fork 的来源关系，准备页依据仓库身份核验来源。已经运行的 Worker 和其 `workers.dev` 地址不会因为 GitHub 改名而自动改名；到原 Worker 的 **Settings → Build** 核对仓库连接和监听分支，确认下一次构建正常。作者更新官方仓库名字时，已发布页面里的硬编码入口也需要随版本更新。
+
+官方发行仓库转入 `mind-universe-studio/mind-universe-release` 后，来源仓库 ID 保持不变。已经从旧官方仓库建立的 Fork 仍按同一来源核验，不需要新建 Fork、重装后台或更换安装配置。
 
 ## 这是免费的吗？
 
@@ -115,7 +117,7 @@ Cloudflare 账号授权在官方网页完成，不要把管理令牌交给作者
 
 ### 怎样更新？
 
-先备份，关闭后台回复和自主聊天，确认云端停止并收取在途结果。使用统一网页时，网页由提供方更新；自己的后台由自己更新。开始前阅读本次 [Release](https://github.com/richzorya/mind-universe-release/releases) 的兼容与迁移说明，并保留原安装备份。
+先备份，关闭后台回复和自主聊天，确认云端停止并收取在途结果。使用统一网页时，网页由提供方更新；自己的后台由自己更新。开始前阅读本次 [Release](https://github.com/mind-universe-studio/mind-universe-release/releases) 的兼容与迁移说明，并保留原安装备份。
 
 **通过本版 Fork 流程安装的后台：**
 
@@ -191,7 +193,7 @@ Cloudflare 账号授权在官方网页完成，不要把管理令牌交给作者
 
 ## 发现功能问题或希望联系作者，怎么办？
 
-功能问题和建议可以[提交 Issue](https://github.com/richzorya/mind-universe-release/issues/new/choose)，写明使用环境、操作步骤和不含私人资料的错误信息。授权或合作意向请按[联系作者](../README.md#联系作者)中的方式沟通。
+功能问题和建议可以[提交 Issue](https://github.com/mind-universe-studio/mind-universe-release/issues/new/choose)，写明使用环境、操作步骤和不含私人资料的错误信息。授权或合作意向请按[联系作者](../README.md#联系作者)中的方式沟通。
 
 涉及密钥、私人数据或安全问题时，请按[安全说明](../SECURITY.md#私密联系)先申请私密联系渠道，公开 Issue 中只留下联系请求。
 

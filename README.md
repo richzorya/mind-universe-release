@@ -17,7 +17,7 @@ Mind Universe 是可以添加到手机主屏幕的网页应用。聊天记录主
 **用手机或电脑的浏览器操作，不需要编写代码或复制终端命令。** 请先准备自己的 GitHub、Cloudflare 账号；模型 API Key 是你向 AI 服务商申请的调用密钥，已有设置可继续用。
 
 1. **准备资料：** 打开[安装准备页](https://mu-beta.pages.dev/install.html)（[备用入口](https://mu-beta.netlify.app/install.html)），生成并保存 `MU-installation-….json` 安装备份。
-2. **Fork 仓库：** 在准备页打开 [Fork 官方仓库](https://github.com/richzorya/mind-universe-release/fork)，完成 GitHub 的 **Create fork**，粘贴自己仓库的网址并点“核验 Fork 仓库”。通过后进入下一步。
+2. **Fork 仓库：** 在准备页打开 [Fork 官方仓库](https://github.com/mind-universe-studio/mind-universe-release/fork)，完成 GitHub 的 **Create fork**，粘贴自己仓库的网址并点“核验 Fork 仓库”。通过后进入下一步。
 3. **安装到 Cloudflare：** 新建专用 D1 数据库，复制 Database ID；创建 Worker 并连接刚才的 Fork，按[安装教程](docs/INSTALL.md#第三步安装到-cloudflare)填写构建配置、数据库编号与权限。部署成功后，在 Worker 的 **Settings → Variables and Secrets** 添加 `INSTALL_CONFIG` **Secret**，粘贴原安装配置并保存部署。
 4. **连接后台：** 复制 Worker 的 `workers.dev` 地址，再从准备页“4. 连接后台”复制配对码，填入应用“设置 → 个人后台 → 连接后台”。看到绿色对勾“已连接”后，沿用原 API Keys 与模型设置，发一条测试消息，再添加到手机主屏幕。
 
@@ -29,7 +29,7 @@ Mind Universe 是可以添加到手机主屏幕的网页应用。聊天记录主
 
 不必。可以使用上面的统一网页，只部署自己的后台；使用统一 Netlify 网页也不需要注册 Netlify。
 
-当前提供内测网页和个人后台安装模板，网页 ZIP 暂未开放下载。安装后台请使用[安装教程](docs/INSTALL.md)；[Release](https://github.com/richzorya/mind-universe-release/releases) 中的 `mind-universe-cloudflare-backend.zip` 用于手动部署或维护本人使用的后台。GitHub 自动生成的 **Source code (zip)** 是本发行仓库的文件快照，安装请按教程操作。
+当前提供内测网页和个人后台安装模板，网页 ZIP 暂未开放下载。安装后台请使用[安装教程](docs/INSTALL.md)；[Release](https://github.com/mind-universe-studio/mind-universe-release/releases) 中的 `mind-universe-cloudflare-backend.zip` 用于手动部署或维护本人使用的后台。GitHub 自动生成的 **Source code (zip)** 是本发行仓库的文件快照，安装请按教程操作。
 
 ## 使用前
 
@@ -55,10 +55,10 @@ Mind Universe 是可以添加到手机主屏幕的网页应用。聊天记录主
 
 任何商业化、授权或超出学习交流范围的使用，均须先与作者本人沟通，取得针对具体用途的明确书面授权后方可开展。
 
-作者：[richzorya](https://github.com/richzorya)。请使用作者主页公开的联系方式；如无合适的私密渠道，可在仓库[提交“授权联系”请求](https://github.com/richzorya/mind-universe-release/issues/new?template=contact_request.md)，仅说明拟议用途，等作者提供联系方式后再沟通详情。请勿在公开页面留下个人资料或商业秘密。
+作者：[richzorya](https://github.com/richzorya)。请使用作者主页公开的联系方式；如无合适的私密渠道，可在仓库[提交“授权联系”请求](https://github.com/mind-universe-studio/mind-universe-release/issues/new?template=contact_request.md)，仅说明拟议用途，等作者提供联系方式后再沟通详情。请勿在公开页面留下个人资料或商业秘密。
 
 ## 问题反馈
 
-功能问题与建议可[提交 Issue](https://github.com/richzorya/mind-universe-release/issues/new/choose)，请提供版本、设备和发生问题的步骤，并删除密钥及私人聊天。涉及安全或隐私的问题，请按[安全说明](SECURITY.md)私密联系。
+功能问题与建议可[提交 Issue](https://github.com/mind-universe-studio/mind-universe-release/issues/new/choose)，请提供版本、设备和发生问题的步骤，并删除密钥及私人聊天。涉及安全或隐私的问题，请按[安全说明](SECURITY.md)私密联系。
 
 BUILD 222 Preview 的系统伙伴入口：手机助手 → 系统伙伴。公开内测入口本次尚未同步这项功能。可从五个模板创建或自定义，使用已选 API 模型连续对话，保存和修订共同记忆，并绑定准备好的平行世界故事。切换人格会保留旧对话；任务判定、道具执行与 MCP 尚未接入。

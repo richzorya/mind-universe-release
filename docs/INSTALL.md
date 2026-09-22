@@ -54,9 +54,9 @@ URL 就是网址。下面几项用途不同，不能互相替代；操作步骤�
 
 Fork 是 GitHub 为你的账号创建、并保留官方来源关系的仓库。Cloudflare 需要读取这个仓库里的后台程序，才能部署并在你更新仓库后重新发布。
 
-1. 在准备页点“Fork 官方仓库”，或打开[官方 Fork 入口](https://github.com/richzorya/mind-universe-release/fork)。登录自己的 GitHub 账号。
+1. 在准备页点“Fork 官方仓库”，或打开[官方 Fork 入口](https://github.com/mind-universe-studio/mind-universe-release/fork)。登录自己的 GitHub 账号。
 2. 选择自己的账号作为 Owner，确认仓库名，点 **Create fork**。同一账号已经 Fork 过时，使用自己的现有 Fork。
-3. 复制新仓库首页网址，格式是 `https://github.com/你的用户名/你的仓库名`。从手机地址栏复制的 `github.com/…`（不带 `https://`、末尾带 `/`）也可以直接粘贴。不要复制官方仓库 `richzorya/mind-universe-release`、文件页或 Cloudflare 管理链接；填了官方仓库，页面会提示改填你自己的 Fork。
+3. 复制新仓库首页网址，格式是 `https://github.com/你的用户名/你的仓库名`。从手机地址栏复制的 `github.com/…`（不带 `https://`、末尾带 `/`）也可以直接粘贴。不要复制官方仓库 `mind-universe-studio/mind-universe-release`、文件页或 Cloudflare 管理链接；填了官方仓库，页面会提示改填你自己的 Fork。
 4. 回到准备页，粘贴到“你的 Fork 仓库地址”，点“核验 Fork 仓库”。页面读取 GitHub 的仓库来源信息；核验成功显示“已核验 Fork”和仓库名，才可进入“3. 安装到 Cloudflare”。
 
 仓库或用户名改名后，粘贴新的网址重新核验；只要仍保留官方 Fork 来源关系，改名不影响来源核验。无法核验时，按页面提示检查链接、公开可见性及 GitHub 请求限制后重试。

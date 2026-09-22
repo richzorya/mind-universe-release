@@ -56,7 +56,7 @@ Mind Universe 学习交流使用条款
 请通过作者 GitHub 主页公开的联系方式联系：https://github.com/richzorya 。
 如无合适的私密渠道，可在发行仓库提交“授权联系”请求，仅说明拟议用途，
 等作者提供联系方式后再沟通详情。请勿在公开页面留下个人资料或商业秘密。
-发行仓库：https://github.com/richzorya/mind-universe-release
+发行仓库：https://github.com/mind-universe-studio/mind-universe-release
 
 5. 第三方内容、用户数据与适用规则
 

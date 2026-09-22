@@ -2,11 +2,11 @@
 
 [返回首页](README.md) · [学习交流使用条款](LICENSE.txt) · [免责声明](DISCLAIMER.md)
 
-普通安装和使用问题请[提交 Issue](https://github.com/richzorya/mind-universe-release/issues/new/choose)。使用中发现涉及安全、密钥或私人数据的问题时，请先按下方流程联系作者，公开 Issue 中只留下联系请求。
+普通安装和使用问题请[提交 Issue](https://github.com/mind-universe-studio/mind-universe-release/issues/new/choose)。使用中发现涉及安全、密钥或私人数据的问题时，请先按下方流程联系作者，公开 Issue 中只留下联系请求。
 
 ## 私密联系
 
-如已通过[作者本人](https://github.com/richzorya)取得私密联系方式，请沿用该渠道。尚无私密联系方式时，请提交[联系作者 Issue](https://github.com/richzorya/mind-universe-release/issues/new?template=contact_request.md)，只写“需要私密联系，涉及安全问题”或“需要私密联系，涉及隐私请求”。作者提供私密渠道后，再发送必要资料。
+如已通过[作者本人](https://github.com/richzorya)取得私密联系方式，请沿用该渠道。尚无私密联系方式时，请提交[联系作者 Issue](https://github.com/mind-universe-studio/mind-universe-release/issues/new?template=contact_request.md)，只写“需要私密联系，涉及安全问题”或“需要私密联系，涉及隐私请求”。作者提供私密渠道后，再发送必要资料。
 
 联系请求会公开显示。请勿填写问题利用方法、个人资料、联系方式、账号信息或任何密钥。
 

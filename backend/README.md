@@ -2,9 +2,9 @@
 
 这是已编译的 Mind Universe 后台成品。手机安装从[安装准备页](https://mu-beta.pages.dev/install.html)开始，先 Fork 官方发行仓库，再让 Cloudflare 连接自己的 Fork。
 
-**仅供个人学习和技术交流使用。禁止未经作者事先明确书面授权的商业化行为，包括售卖链接、收费代部署、配置、维护或托管个人后台。** 安装前请阅读[学习交流使用条款](LICENSE.txt)与[免责声明](DISCLAIMER.md)；授权事宜请先[联系作者](https://github.com/richzorya/mind-universe-release#联系作者)。
+**仅供个人学习和技术交流使用。禁止未经作者事先明确书面授权的商业化行为，包括售卖链接、收费代部署、配置、维护或托管个人后台。** 安装前请阅读[学习交流使用条款](LICENSE.txt)与[免责声明](DISCLAIMER.md)；授权事宜请先[联系作者](https://github.com/mind-universe-studio/mind-universe-release#联系作者)。
 
-[完整安装教程](https://github.com/richzorya/mind-universe-release/blob/main/docs/INSTALL.md) · [找回后台地址](https://github.com/richzorya/mind-universe-release/blob/main/docs/INSTALL.md#找回后台地址) · [找回配对码](https://github.com/richzorya/mind-universe-release/blob/main/docs/INSTALL.md#找回配对码)
+[完整安装教程](https://github.com/mind-universe-studio/mind-universe-release/blob/main/docs/INSTALL.md) · [找回后台地址](https://github.com/mind-universe-studio/mind-universe-release/blob/main/docs/INSTALL.md#找回后台地址) · [找回配对码](https://github.com/mind-universe-studio/mind-universe-release/blob/main/docs/INSTALL.md#找回配对码)
 
 ## 首次安装
 
@@ -32,7 +32,7 @@
 
 本模板不读取或修改 `INSTALL_CONFIG`，也不执行秘密上传、轮换或删除。`wrangler.jsonc` 中的数据库占位值用于新 Fork；构建时只采用你明确填写的 UUID。旧安装自定义过 Worker 名称时，保留配置文件中的名称，并让 Cloudflare 项目名称与它一致。
 
-首次安装需要 GitHub/Cloudflare 账号、相应资源权限和可用额度。云平台、域名、模型、语音等费用由使用者按实际选择承担。关闭应用中的后台功能后，云资源仍会保留；停用时请按[更新、迁移与停用](https://github.com/richzorya/mind-universe-release/blob/main/docs/FAQ.md#更新迁移与停用)处理并核对平台账单。
+首次安装需要 GitHub/Cloudflare 账号、相应资源权限和可用额度。云平台、域名、模型、语音等费用由使用者按实际选择承担。关闭应用中的后台功能后，云资源仍会保留；停用时请按[更新、迁移与停用](https://github.com/mind-universe-studio/mind-universe-release/blob/main/docs/FAQ.md#更新迁移与停用)处理并核对平台账单。
 
 [学习交流使用条款](LICENSE.txt) · [免责声明](DISCLAIMER.md) · [第三方声明](THIRD_PARTY_NOTICES.md) · [安全问题](SECURITY.md)
 
