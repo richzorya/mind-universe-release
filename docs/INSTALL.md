@@ -56,7 +56,7 @@ Fork 是 GitHub 为你的账号创建、并保留官方来源关系的仓库。C
 
 1. 在准备页点“Fork 官方仓库”，或打开[官方 Fork 入口](https://github.com/richzorya/mind-universe-release/fork)。登录自己的 GitHub 账号。
 2. 选择自己的账号作为 Owner，确认仓库名，点 **Create fork**。同一账号已经 Fork 过时，使用自己的现有 Fork。
-3. 复制新仓库首页网址，格式是 `https://github.com/你的用户名/你的仓库名`。不要复制官方仓库、文件页或 Cloudflare 管理链接。
+3. 复制新仓库首页网址，格式是 `https://github.com/你的用户名/你的仓库名`。从手机地址栏复制的 `github.com/…`（不带 `https://`、末尾带 `/`）也可以直接粘贴。不要复制官方仓库 `richzorya/mind-universe-release`、文件页或 Cloudflare 管理链接；填了官方仓库，页面会提示改填你自己的 Fork。
 4. 回到准备页，粘贴到“你的 Fork 仓库地址”，点“核验 Fork 仓库”。页面读取 GitHub 的仓库来源信息；核验成功显示“已核验 Fork”和仓库名，才可进入“3. 安装到 Cloudflare”。
 
 仓库或用户名改名后，粘贴新的网址重新核验；只要仍保留官方 Fork 来源关系，改名不影响来源核验。无法核验时，按页面提示检查链接、公开可见性及 GitHub 请求限制后重试。
@@ -85,14 +85,17 @@ D1 保存后台的设备配对、任务和回复等数据。没有有效数据�
 
 | Cloudflare 字段 | 填写内容 |
 | --- | --- |
-| 项目名称 / Worker name | 新安装使用 `mu-personal`；若本账号已有同名项目，先确认它是否就是原后台 |
-| 根目录 / Root directory | `backend` |
-| 分支 / Git branch | 准备页显示的该 Fork 默认分支 |
+| 项目名称 / Project name | **改不改都可以。** 可保持 Cloudflare 默认填入的仓库名，也可改成好认的名字，例如 `mu-personal`；长度为 1–63 个字符，只用小写字母、数字和中划线，不能以中划线开头或结尾。提示名称已存在时换一个名字即可，不要为此删除已有项目。连接时复制 Cloudflare 按这个名称生成的实际网址 |
+| 部署命令 / Deploy command | `npm run deploy`（替换默认的 `npx wrangler deploy`） |
 | 构建命令 / Build command | 留空 |
-| 部署命令 / Deploy command | `npm run deploy` |
-| 构建变量 / Build variables | 新增普通变量 `MU_D1_DATABASE_ID`，值为刚才的 Database ID |
+| 路径 / Path（建好后在设置里叫“根目录 / Root directory”） | `backend`，在“高级设置”里 |
+| API 令牌 / API token | 保持默认或选“创建新令牌”均可，在“高级设置”里 |
+| 变量 / Variables（构建变量） | 普通变量 `MU_D1_DATABASE_ID`，值为刚才的 Database ID，在“高级设置”里，**最后填** |
+| 分支 / Git branch | 准备页显示的该 Fork 默认分支 |
 
-**给构建令牌增加 D1 权限：** Workers Builds 默认创建的 API token 不含 D1 权限，而本次部署需要向专用数据库应用表结构。记下本次构建选择的 token，在 Cloudflare **My Profile → API Tokens** 找到它，编辑权限，保留原权限并增加 **Account → D1 → Edit**，账号范围包含本次安装账号。保存后回到原 Worker 继续部署。若自动令牌在首次构建后才出现，先查看原项目 **Settings → Build** 使用的令牌，补权限后重试这次构建，不要另建项目。[Cloudflare 构建配置与令牌说明](https://developers.cloudflare.com/workers/ci-cd/builds/configuration/#api-token)
+**Cloudflare 新建页面的操作顺序：** “路径”、“API 令牌”和“变量”默认折叠在页面下方的 **高级设置 / Advanced settings** 里，要先点开。**先选好 API 令牌，最后再填变量**——切换令牌后已填好的变量可能被重置。点 **部署** 前往下滚动核对一次：路径是 `backend`，变量名和数据库编号都还在。漏填或被清空时部署会停止并提示数据库编号缺失，此时到原项目 **Settings → Build** 补上变量后重试这次构建，不要另建项目。
+
+**关于 D1 权限：** 可先使用默认或新建的 Workers Builds 构建令牌，D1 权限以本次令牌的实际配置为准。若 Cloudflare 构建日志明确提示 D1 权限不足，在 **My Profile → API Tokens** 找到该构建使用的令牌，保留原权限并增加 **Account → D1 → Edit**，账号范围包含本次安装账号，保存后在原项目重试构建。只看到“数据库初始化或升级未完成”时，先查看前面的具体错误；数据库 ID、额度等问题也可能导致初始化失败，不必因此更改令牌。[Cloudflare 构建配置与令牌说明](https://developers.cloudflare.com/workers/ci-cd/builds/configuration/#api-token)
 
 无需把令牌内容填入 Mind Universe，也不要提交到 GitHub。若构建失败，先检查原项目的构建设置、数据库编号和错误提示，修正后在原项目重试。部署脚本会连接这份数据库并部署后台及任务流程。
 
@@ -120,7 +123,7 @@ Secret 保存后平台会隐藏值，不能从设置页读取配对码。配置�
 部署成功页面关掉了也能找到，不需要重新部署：
 
 1. 打开 [Cloudflare 项目列表](https://dash.cloudflare.com/?to=/:account/workers-and-pages)，登录安装时的账号。
-2. 在 **Workers & Pages** 中选安装时的 **Worker 项目**，新安装默认名为 `mu-personal`；不要进入 D1 或 Workflow 列表。
+2. 在 **Workers & Pages** 中选安装时的 **Worker 项目**（名称是你安装时填写或保留的项目名称）；不要进入 D1 或 Workflow 列表。
 3. 打开 **Domains（域名）** 页，找到 **workers.dev**；旧界面入口为 **Settings → Domains & Routes**。复制它的完整 HTTPS 地址；如果只显示域名，在开头补 `https://`。不要选带版本编号的临时 Preview URL。[官方路径说明](https://developers.cloudflare.com/workers/configuration/routing/workers-dev/)
 
 地址格式为 `https://你的Worker名称.你的账号子域.workers.dev`；请复制自己项目的真实值。**不要复制 `https://dash.cloudflare.com/…` 管理页、GitHub 仓库链接、数据库编号或聊天网页地址。** 没有地址或访问入口已停用时，检查原项目的部署记录与提示，不要另建一套。

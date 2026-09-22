@@ -10,8 +10,8 @@
 
 1. 在[安装准备页](https://mu-beta.pages.dev/install.html)完成官方仓库 Fork 核验，生成安装资料并保存安装备份。已有安装应恢复原备份，不要重新生成配置。
 2. 在自己的 Cloudflare 账号中新建一个专门用于本后台的 D1 数据库，复制它的数据库 ID（UUID）。不要使用其他应用的数据库。
-3. 进入 [Workers & Pages](https://dash.cloudflare.com/?to=/:account/workers-and-pages)，创建 Worker 并导入自己的 GitHub Fork。项目名称使用 `mu-personal`，根目录填写 `backend`，构建命令留空，部署命令填写 `npm run deploy`。只连接需要部署的分支；本安装流程不使用非生产分支预览构建。
-4. 在构建变量中添加普通变量 `MU_D1_DATABASE_ID`，值填写第 2 步复制的 UUID。构建所用 API 令牌还需要 **Account → D1 → Edit（D1 编辑）** 权限；默认构建令牌不包含这一项，可在 Cloudflare 的 **My Profile → API Tokens** 中编辑本次构建令牌。保留它已有的 Workers Scripts 等权限。
+3. 进入 [Workers & Pages](https://dash.cloudflare.com/?to=/:account/workers-and-pages)，创建 Worker 并导入自己的 GitHub Fork。项目名称可保持默认或自定义（1–63 个字符，仅小写字母、数字和中划线，不能以中划线开头或结尾，例如 `mu-personal`，重名时换一个），根目录填写 `backend`（新建页面在“高级设置”中叫“路径”），构建命令留空，部署命令填写 `npm run deploy`。只连接需要部署的分支；本安装流程不使用非生产分支预览构建。
+4. 在“高级设置”中先选好 API 令牌（可先保持默认或新建），最后在构建变量中添加普通变量 `MU_D1_DATABASE_ID`，值填写第 2 步复制的 UUID；切换令牌后已填变量可能被重置，部署前核对一次。D1 权限以本次令牌的实际配置为准；若 Cloudflare 日志明确提示 D1 权限不足，在 **My Profile → API Tokens** 为该令牌增加 **Account → D1 → Edit**，保留原权限并确认账号范围包含本次安装账号。其他初始化失败先检查日志中的数据库 ID、额度或具体错误。
 5. 开始部署。脚本先核验实际连接的仓库为官方 Fork，再初始化数据库并发布代码；它不会按名称寻找或新建数据库。若构建提示数据库权限不足，补齐权限后重试原构建，无需再建库。
 6. 代码部署成功后，进入这个 Worker 的 **Settings → Variables & Secrets**，新增类型为 **Secret**、名称为 `INSTALL_CONFIG` 的秘密，将准备页复制的整段 `MUINSTALL1.…` 安装配置粘贴为值，并按页面提示部署使其生效。**构建变量和构建秘密不会自动成为 Worker 的运行时秘密。** 不要把安装配置写到 `wrangler.jsonc` 或 GitHub。
 7. 在 Worker 的 **Domains** 页复制 `workers.dev` 的 HTTPS 网址；旧版界面在 **Settings → Domains & Routes**。打开[聊天网页](https://mu-beta.pages.dev/)，在“设置 → 个人后台 → 连接后台”填写该网址，再从原准备页复制配对码连接。

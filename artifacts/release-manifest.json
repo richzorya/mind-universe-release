@@ -2,14 +2,14 @@
   "formatVersion": 1,
   "kind": "mu-personal-release",
   "status": "beta",
-  "frontendBuildSerial": 216,
+  "frontendBuildSerial": 220,
   "backendVersion": "0.1.0",
   "backendProtocolVersion": 1,
   "artifacts": [
     {
       "path": "mind-universe-cloudflare-backend.zip",
-      "bytes": 302191,
-      "sha256": "1af0d670cc9c01faa59008c2e759881321f01cf3214d1ee2f29d0b81d0c4a430"
+      "bytes": 302203,
+      "sha256": "728bdfdbab62142672a5f28531b26dc634db78e99b04f927273579b8873facc1"
     }
   ],
   "repositoryBackend": [
@@ -31,7 +31,7 @@
     {
       "path": "deployment-manifest.json",
       "bytes": 3800,
-      "sha256": "e2cbc7043e1f91f2edcfd67f8635fd9423cb04cefb6e45ea756a7a36c434302c"
+      "sha256": "9f4f5931abacf23a740af875ea3bc9cdd91304a60bcff301cac10ec731783432"
     },
     {
       "path": "DISCLAIMER.md",
@@ -100,13 +100,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 6015,
-      "sha256": "11726b14e7061686cdd6226be78b6070e842d51164755b522022c64c315986d9"
+      "bytes": 6449,
+      "sha256": "2dfa4b0db16a50059c5d941184f853badbf650895999948a6e191052447e4030"
     },
     {
       "path": "runtime.js",
-      "bytes": 675419,
-      "sha256": "e61a1274ee0388c5881358e69065428f8604ffca395adcc6d24a2f948a4b2555"
+      "bytes": 675474,
+      "sha256": "e4a79fc9c0580eaa4fcab551c00dd8e117951203288f62f1af291864a2316d3f"
     },
     {
       "path": "SECURITY.md",
@@ -135,5 +135,5 @@
     "https://mu-beta.netlify.app"
   ],
   "documentationVersion": "1.1",
-  "documentationUpdatedAt": "2026-09-15"
+  "documentationUpdatedAt": "2026-09-22"
 }

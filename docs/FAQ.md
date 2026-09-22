@@ -67,7 +67,8 @@ Cloudflare 账号授权在官方网页完成，不要把管理令牌交给作者
 - **Fork 核验失败**：确认粘贴的是自己已创建、公开可用的官方 Fork 首页；独立复制的仓库不符合此安装入口。请求受限时稍后重试，不要填写 GitHub 密钥。
 - **登录或授权受阻**：核对官方页面的账号、仓库权限、验证码或双重验证提示。Cloudflare 应选择已核验的同一个 Fork。
 - **提示数据库编号缺失或无效**：在原项目构建普通变量中填写 `MU_D1_DATABASE_ID`，值是专用 D1 的 **Database ID**，不是名称；不要重复建库。旧安装使用原库编号。
-- **构建访问 D1 无权限**：默认构建令牌没有 D1 权限，在 **My Profile → API Tokens** 给本次构建使用的令牌增加 **Account → D1 → Edit**，保留原权限，再重试原项目。[完整配置步骤](INSTALL.md#第三步安装到-cloudflare)
+- **构建访问 D1 无权限**：可先使用默认或新建的构建令牌，D1 权限以实际配置为准。若 Cloudflare 日志明确提示 D1 权限不足，在 **My Profile → API Tokens** 给本次构建使用的令牌增加 **Account → D1 → Edit**，保留原权限并确认账号范围包含本次安装账号，再重试原项目。其他初始化失败先检查日志中的数据库 ID、额度或具体错误。[完整配置步骤](INSTALL.md#第三步安装到-cloudflare)
+- **变量明明填了却提示数据库编号缺失**：Cloudflare 新建页面上切换 API 令牌后，已填的变量可能被重置。先到原项目 **Settings → Build** 检查 `MU_D1_DATABASE_ID`；若缺失，补上后重试构建，不需要重建项目或数据库。
 - **找不到部署程序或部署命令失败**：核对根目录 `backend`、构建命令留空、部署命令 `npm run deploy`，并选择准备页显示的分支。
 - **代码已部署但提示安装配置缺失**：在 Worker **Settings → Variables and Secrets** 添加 `INSTALL_CONFIG` **Secret**，粘贴原配置并保存部署。只填 Build Secret 不会配置运行中的后台。
 - **复制失败或配置无效**：恢复原 `MU-installation` JSON，重新复制 `MUINSTALL1.` 开头的完整长字符串，不能用配对码替代。
@@ -118,7 +119,7 @@ Cloudflare 账号授权在官方网页完成，不要把管理令牌交给作者
 
 **通过本版 Fork 流程安装的后台：**
 
-1. 打开原 Worker 的 **Settings → Build**，确认连接的是自己的 Fork 和原默认分支；保留原 `MU_D1_DATABASE_ID`、Worker 名称和运行时 `INSTALL_CONFIG`。数据库编号仍指向原库，构建令牌仍需 D1 编辑权限。
+1. 打开原 Worker 的 **Settings → Build**，确认连接的是自己的 Fork 和原默认分支；保留原 `MU_D1_DATABASE_ID`、Worker 名称和运行时 `INSTALL_CONFIG`。数据库编号仍指向原库；构建令牌须保有 D1 编辑权限，原来能部署的令牌无需改动。
 2. 在 GitHub 打开自己的 Fork，点 **Sync fork → Update branch**。如果出现冲突或提示自己修改过同一文件，先解决冲突并保留安装配置，不要用丢弃修改的方法强行覆盖。[GitHub 同步说明](https://docs.github.com/en/pull-requests/how-tos/work-with-forks/syncing-a-fork)
 3. 等原 Worker 的构建记录出现这次提交并成功。未自动开始时，在原项目手动触发构建，核对根目录 `backend`、构建命令留空、部署命令 `npm run deploy`，不要创建新 Worker。
 4. 在应用“设置 → 个人后台”点“检查连接”，再发一条测试消息。确认正常后，按需要重新开启后台功能。

@@ -6,7 +6,7 @@
   "runtime": "runtime.js",
   "configuration": "wrangler.jsonc",
   "migrations": "migrations",
-  "backendMarkerSha256": "a6e0f97a8dd1a43e582a44340db5e28143195a7174e18ff4761876813bafaa8f",
+  "backendMarkerSha256": "843a3172df42585f99252fc91991c461f4cd79f37aa41ffcf916a6cb1c27ca62",
   "assets": [
     {
       "path": ".dev.vars.example",
@@ -90,13 +90,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 6015,
-      "sha256": "11726b14e7061686cdd6226be78b6070e842d51164755b522022c64c315986d9"
+      "bytes": 6449,
+      "sha256": "2dfa4b0db16a50059c5d941184f853badbf650895999948a6e191052447e4030"
     },
     {
       "path": "runtime.js",
-      "bytes": 675419,
-      "sha256": "e61a1274ee0388c5881358e69065428f8604ffca395adcc6d24a2f948a4b2555"
+      "bytes": 675474,
+      "sha256": "e4a79fc9c0580eaa4fcab551c00dd8e117951203288f62f1af291864a2316d3f"
     },
     {
       "path": "SECURITY.md",
