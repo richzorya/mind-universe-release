@@ -58,3 +58,7 @@
 [安装教程](docs/INSTALL.md) · [Release 附件](https://github.com/richzorya/mind-universe-release/releases) · [更新、迁移与停用](docs/FAQ.md#更新迁移与停用)
 
 后台成品版本为 0.1.0，应用配对协议为 1，手机安装配置格式为 MUINSTALL1。更新自己的安装副本时复用原配置、数据库与资源，不重新生成密钥；作者更新发行仓库不会自动更新你的副本。
+
+## 网页更新 · BUILD 222
+
+系统伙伴新增模板与自定义人格、真实 API 对话、可修订共同记忆、故事版本绑定和备份。界面统一改版后置；任务判定、道具和 MCP 尚未接入。当前后台 ZIP 沿用 BUILD 220 配套文件，本次无需重新安装后台。
